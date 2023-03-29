@@ -24,10 +24,10 @@
   </section> --}}
 
     <section class="tm-section tm-section-3 col-lg-10">
-        <h2 class="tm-text-blue mb-4 text-uppercase">
-            {{ __('Images') }}
-        </h2>
-        <div class="tm-textbox tm-bg-dark">
+        <div class="tm-textbox tm-bg-dark" dir="rtl">
+            <h2 class="text-white mb-4 text-uppercase float-right">
+                {{ __('Images') }}
+            </h2>
             {{-- <div class="card">
                 <div class="card-header">
                     <div class="col-12">
@@ -37,23 +37,23 @@
                 <div class="card-body"> --}}
             @if (count($images) > 0)
                 <div class="col-12">
-                    <a href="/images/create" class="btn btn-lg btn-success float-right mb-3">{{ __('Add New Image') }}</a>
+                    <a href="/images/create" class="btn btn-lg btn-success float-left mb-3">{{ __('إضافة صورة جديدة') }}</a>
                 </div>
                 <div class="table-responsive">
-                    <table class="table table-hover tm-text-blue">
+                    <table class="table table-hover text-white">
                         <thead>
                             <tr class="text-uppercase">
                                 <th>#</th>
-                                <th>{{ __('VIPs in Image') }}</th>
-                                <th>{{ __('Image') }}</th>
-                                <th>{{ __('Loaction') }}</th>
-                                <th>{{ __('Occasion') }}</th>
-                                <th>{{ __('Image Type') }}</th>
-                                <th>{{ __('Image Date') }}</th>
-                                <th>{{ __('Image Color Mode') }}</th>
-                                <th>{{ __('Image Quality') }}</th>
-                                <th>{{ __('Image File Type') }}</th>
-                                <th>{{ __('Edit Image Details') }}</th>
+                                <th>{{ __('كبار الشخصيات') }}</th>
+                                <th>{{ __('الصورة') }}</th>
+                                <th>{{ __('الموقع') }}</th>
+                                <th>{{ __('المناسبة') }}</th>
+                                <th>{{ __('نوع الصورة') }}</th>
+                                <th>{{ __('تاريخ الصورة') }}</th>
+                                {{-- <th>{{ __('Image Color Mode') }}</th> --}}
+                                <th>{{ __('جودة الصورة') }}</th>
+                                <th>{{ __('نوع الملف') }}</th>
+                                <th>{{ __('تعديل بيانات الصورة') }}</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -66,11 +66,11 @@
                                                 @foreach ($VIPs as $VIP)
                                                     @if ($VIP->id == $vipInImage->vip_id)
                                                         <li>
-                                                            @if (app()->getLocale() == 'ar')
+                                                            {{-- @if (app()->getLocale() == 'ar') --}}
                                                                 {{ $VIP->name_ar }}
-                                                            @else
+                                                            {{-- @else
                                                                 {{ $VIP->name_en }}
-                                                            @endif
+                                                            @endif --}}
                                                         </li>
                                                     @endif
                                                 @endforeach
@@ -88,22 +88,22 @@
                                     <td>
                                         @foreach ($types as $type)
                                             @if ($image->image_type == $type->id)
-                                                @if (app()->getLocale() == 'ar')
+                                                {{-- @if (app()->getLocale() == 'ar') --}}
                                                     {{ $type->type_ar }}
-                                                @else
+                                                {{-- @else
                                                     {{ $type->type_en }}
-                                                @endif
+                                                @endif --}}
                                             @endif
                                         @endforeach
                                     </td>
                                     <td>{{ $image->image_date }}</td>
-                                    <td>
+                                    {{-- <td>
                                         @if ($image->image_color_mode == 1)
                                             {{ __('Black and White') }}
                                         @else
                                             {{ __('Coloured') }}
                                         @endif
-                                    </td>
+                                    </td> --}}
                                     <td>{{ $image->image_quality }}</td>
                                     <td>{{ $image->image_file_type }}</td>
                                     <td><a href="/images/{{$image->id}}/edit" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a></td>
@@ -115,9 +115,9 @@
                 </div>
             @else
                 <div class="text-center">
-                    <div class="alert alert-warning">{{ __('There is No Image') }}</div>
+                    <div class="alert alert-warning">{{ __('لا توجد صور مضافة') }}</div>
                     <div class="col-12">
-                        <a href="/images/create" class="btn btn-lg btn-success">{{ __('Add New Image') }}</a>
+                        <a href="/images/create" class="btn btn-lg btn-success">{{ __('إضافة صورة جديدة') }}</a>
                     </div>
                 </div>
             @endif
@@ -140,7 +140,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    
+
                 </div>
             </div>
         </div>

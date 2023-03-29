@@ -4,6 +4,7 @@ use App\Http\Controllers\ImagesController;
 use App\Http\Controllers\ImageTypeController;
 use App\Http\Controllers\VipsNameController;
 use App\Models\images;
+use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,3 +30,19 @@ Route::resource('imageTypes', ImageTypeController::class);
 Route::post('addVips',[ImagesController::class,'addVips']);
 Route::get('/search',[ImagesController::class,'search'])->name('search');
 Route::post('/search',[ImagesController::class,'getReult']);
+Route::get('/dev/migrate', function () {
+    Artisan::call('migrate:fresh');
+    $dd_output = Artisan::output();
+    dd($dd_output);
+});
+Route::get('/dev/optimize', function () {
+    Artisan::call('optimize');
+    $dd_output = Artisan::output();
+    dd($dd_output);
+});
+
+Route::get('/dev/seed', function () {
+    Artisan::call('db:seed');
+    $dd_output = Artisan::output();
+    dd($dd_output);
+});

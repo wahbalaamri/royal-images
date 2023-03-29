@@ -1,19 +1,19 @@
 @extends('layouts.main')
 @section('content')
 <section class="tm-section tm-section-3">
-   
-    <div class="tm-textbox tm-bg-dark">
-      <h2 class="tm-section-title mb-3 font-weight-bold">
-        Introduction
+
+    <div class="tm-textbox tm-bg-dark" dir="rtl">
+      <h2 class="tm-section-title mb-3 font-weight-bold text-right">
+        النظام
       </h2>
-      <p>
-        The Card template is last updated on 21 May 2019. Read More button is linked to second page. You can try it now. External link button is added on main menu.
+      <p class="text-right">
+        كن لا بد أن أوضح لك أن كل هذه الأفكار المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤلاء الأشخاص الذين لا يدركون بأن السعادة لا بد أن نستشعرها بصورة أكثر عقلانية ومنطقية فيعرضهم هذا لمواجهة الظروف الأليمة، وأكرر بأنه لا يوجد من يرغب في الحب ونيل المنال ويتلذذ بالآلام، الألم هو الألم ولكن نتيجة لظروف ما قد تكمن السعاده فيما نتحمله من كد وأسي.
+      <p class="mb-0 text-right">
+        و سأعرض مثال حي لهذا، من منا لم يتحمل جهد بدني شاق إلا من أجل الحصول على ميزة أو فائدة؟ ولكن من لديه الحق أن ينتقد شخص ما أراد أن يشعر بالسعادة التي لا تشوبها عواقب أليمة أو آخر أراد أن يتجنب الألم الذي ربما تنجم عنه بعض المتعة ؟
       </p>
-      <p class="mb-0">
-        Please tell your friends about Tooplate for free templates. This is 70% alpha background.
-      </p>
+      <a href="#" id="tm_about_link" data-linkid="1" class="tm-link">إقراء المزيد</a>
     </div>
-    <a href="#" id="tm_about_link" data-linkid="1" class="tm-link">Read More</a>
+
   </section>
 
 @endsection

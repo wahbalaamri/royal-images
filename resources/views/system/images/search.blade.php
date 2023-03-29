@@ -98,7 +98,7 @@
             <div class="form-group mb-4">
                 <div class="row">
                     <div class="col-8">
-                        
+
                     </div>
                     <div class="col-3">
                         <a href="/imageTypes/create" class="btn btn-lg btn-info mt-5">{{ __('Add New Image Type') }}</a>
@@ -108,10 +108,23 @@
         </form>
 
         <div class="tm-contact-form mt-5">
-            <div class="row" id="result">
+            <div class="container"id="result">
+                {{-- <label class="option_item">
+                        <input type="checkbox" class="checkbox" data-id="12">
+                        <div class="option_inner facebook">
+                            <div class="tickmark" ></div>
+                            <div class="icon">
+                                <div class="row" id="result">
 
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </label> --}}
 
             </div>
+
         </div>
     </section>
     <!-- Modal -->
@@ -177,10 +190,15 @@
                 images = response.images
                 imagesDiv = "";
                 images.forEach(element => {
+                    // console.log(element.id);
                     path = "uploaded_images/" + element.image_url;
                     imagesDiv +=
-                        '<div class="col-4 mb-3"><div class="card" style="width: 18rem;"><a href="#" data-toggle="modal" data-target="#viewImageModal" onclick="show_image(this)">' +
-                        "<img src='../uploaded_images/" + element.image_url+"' class='card-img-top' alt='...'><div class='card-body'></div></a></div></div>"
+                        '<label class="option_item">'+
+                        '<input type="checkbox" class="checkbox" data-id="'+element.id+'">'+
+                        '<div class="option_inner facebook">'+
+                            '<div class="tickmark" ></div>'+
+                            '<div class="icon"><a href="#" data-toggle="modal" data-target="#viewImageModal" onclick="show_image(this)">' +
+                        "<img src='../uploaded_images/" + element.image_url+"' class='card-img-top' alt='...'> </a> </div></div></label>"
                     console.log();
                 });
                 $('#result').html(imagesDiv)

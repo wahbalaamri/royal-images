@@ -22,6 +22,7 @@ http://www.tooplate.com/view/2109-the-card
     <link rel="stylesheet" href="{{ asset('slick/slick-theme.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/tooplate-style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/selector.css') }}" />
 
     <!-- Templatemo style -->
 </head>
@@ -36,34 +37,35 @@ http://www.tooplate.com/view/2109-the-card
 
     <div class="tm-main-container">
         <div class="tm-top-container">
+             <!-- Site header -->
+            <header class="tm-site-header-box pt-0 pr-0 text-center">
+                <img src="{{ asset('img/diwan-logo.png') }}" height="200" alt="" srcset="">
+                {{-- <h1 class="tm-site-title">{{ __('Diwan of Royal Court') }}</h1>
+                <p class="mb-0 tm-site-subtitle text-uppercase">Royal images</p> --}}
+            </header>
             <!-- Menu -->
-            <nav id="tmNav" class="tm-nav">
-                <a class="tm-navbar-menu" href="#">Menu</a>
+            <nav id="tmNav" class="tm-nav pt-5 pl-3">
+                <a class="tm-navbar-menu" href="#">القائمة</a>
                 <ul class="tm-nav-links">
                     <li class="tm-nav-item active">
-                        <a href="/" class="tm-nav-link external">{{__('Home')}}</a>
+                        <a href="/" class="tm-nav-link external">{{__('الرئيسة')}}</a>
                     </li>
                     <li class="tm-nav-item">
-                        <a href="/images" class="tm-nav-link external">{{__('Images')}}</a>
+                        <a href="/images" class="tm-nav-link external">{{__('الصور')}}</a>
                     </li>
                     <li class="tm-nav-item">
-                        <a href="{{route('search')}}"  class="tm-nav-link external">{{__('Search')}}</a>
+                        <a href="{{route('search')}}"  class="tm-nav-link external">{{__('البحث')}}</a>
                     </li>
                     <li class="tm-nav-item">
-                        <a href="/vipsNames"  class="tm-nav-link external">{{__('VIPs')}}</a>
+                        <a href="/vipsNames"  class="tm-nav-link external">{{__('كبار الشخصيات')}}</a>
                     </li>
                     <li class="tm-nav-item">
-                        <a  href="/imageTypes" class="tm-nav-link external">{{__('Image Types')}}</a>
+                        <a  href="/imageTypes" class="tm-nav-link external">{{__('أنواع الصور')}}</a>
                     </li>
                 </ul>
             </nav>
 
-            <!-- Site header -->
-            <header class="tm-site-header-box tm-bg-dark text-center">
-                <img src="{{ asset('img/diwann.png') }}" alt="" srcset="">
-                <h1 class="tm-site-title">{{ __('Diwan of Royal Court') }}</h1>
-                <p class="mb-0 tm-site-subtitle text-uppercase">Royal images</p>
-            </header>
+
         </div>
         <!-- tm-top-container -->
 
@@ -85,9 +87,9 @@ http://www.tooplate.com/view/2109-the-card
             <!-- Footer -->
             <footer>
                 <span class="" >
-                    Copyright &copy;2022 Diwan of Royal Court ||
+                    الحقوق محفوظة &copy;2022 ديوان البلاط السلطاني ||
 
-                    Design: <a rel="nofollow" href="#">General Directorate of Communication and information system</a>
+                    برمجة: <a rel="nofollow" href="#">المديرية العامة للإتصالات ونظم المعلومات</a>
                     ||
                 </span>
             </footer>
@@ -155,10 +157,10 @@ http://www.tooplate.com/view/2109-the-card
             // https://www.jqueryscript.net/slideshow/Simple-jQuery-Background-Image-Slideshow-with-Fade-Transitions-Background-Cycle.html
             bgCycle = $("body").backgroundCycle({
                 imageUrls: [
-                    "{{ asset('img/alalam-palace-5g.jpg') }}",
-                    "{{ asset('img/alalam-palace-4.jpg') }}",
-                    "{{ asset('img/alalam-palace-4.jpg') }}",
-                    "{{ asset('img/alalam-palace-4.jpg') }}"
+                    "{{ asset('img/AlaalamPalce.png') }}",
+                    "{{ asset('img/AlaalamPalce.png') }}",
+                    "{{ asset('img/AlaalamPalce.png') }}",
+                    "{{ asset('img/AlaalamPalce.png') }}"
                 ],
                 fadeSpeed: 2000,
                 duration: -1,
