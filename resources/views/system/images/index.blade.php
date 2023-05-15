@@ -99,9 +99,9 @@
                                     <td>{{ $image->image_date }}</td>
                                     {{-- <td>
                                         @if ($image->image_color_mode == 1)
-                                            {{ __('Black and White') }}
+                                            {{ __('أبيض وأسود') }}
                                         @else
-                                            {{ __('Coloured') }}
+                                            {{ __('ملون') }}
                                         @endif
                                     </td> --}}
                                     <td>{{ $image->image_quality }}</td>

@@ -7,7 +7,7 @@
             <div class="form-group mb-4">
                 <div class="row">
                     <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('Select VIPS :') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('أختر اسماء كبار الشخصيات :') }}</strong></label><br />
                         <select class="selectpicker form-control" multiple data-live-search="true" name="vips[]" id="Names"
                             onchange="search()">
 
@@ -19,7 +19,7 @@
                         </select>
                     </div>
                     <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('Image Occasion') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('مناسبة الصورة') }}</strong></label><br />
                         <input type="text" class="form-control col-md-8 typeahead" name="image_occasion" id="image_occasion"
                             onchange="search()">
                     </div>
@@ -29,13 +29,13 @@
             <div class="form-group mb-4">
                 <div class="row">
                     <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('Image Quality') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('جودة الصورة') }}</strong></label><br />
                         <input type="text" class="form-control col-md-8" name="image_quality" id="image_quality"
                             onchange="search()">
                     </div>
 
                     <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('Image Location') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('المكان الذي ألتقطت به الصورة') }}</strong></label><br />
                         <input type="text" class="form-control col-md-8 typeahead" name="image_location" onchange="search()"
                             id="image_location">
                     </div>
@@ -45,12 +45,12 @@
             <div class="form-group mb-4">
                 <div class="row">
                     <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('Image Date From') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('تاريخ الصورة From') }}</strong></label><br />
                         <input type="date" class="form-control col-md-8" name="image_date" id="image_date_from"
                             onchange="search()">
                     </div>
                     <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('Image Date To') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('تاريخ الصورة To') }}</strong></label><br />
                         <input type="date" class="form-control col-md-8" name="image_date_to" id="image_date_to"
                             onchange="search()">
                     </div>
@@ -61,7 +61,7 @@
             <div class="form-group mb-4">
                 <div class="row">
                     <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('Image Type') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('نوع الصورة') }}</strong></label><br />
                         <select class="selectpicker form-control" data-live-search="true" name="image_type" id="image_type"
                             onchange="search()">
                             <option value="">{{ __('SELECT') }}</option>
@@ -74,14 +74,14 @@
                         </select>
                     </div>
                     <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('Image Color Type') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('نوع ألوان الصورة') }}</strong></label><br />
                         <select class="selectpicker form-control" data-live-search="true" name="image_color_type"
                             id="image_color_type" onchange="search()">
                             <option value="">{{ __('SELECT') }}</option>
                             <option value="1">
-                                {{ __('Black and White') }}
+                                {{ __('أبيض وأسود') }}
                             </option>
-                            <option value="2">{{ __('Coloured') }}
+                            <option value="2">{{ __('ملون') }}
                             </option>
 
                         </select>
@@ -101,7 +101,7 @@
 
                     </div>
                     <div class="col-3">
-                        <a href="/imageTypes/create" class="btn btn-lg btn-info mt-5">{{ __('Add New Image Type') }}</a>
+                        <a href="/imageTypes/create" class="btn btn-lg btn-info mt-5">{{ __('Add New نوع الصورة') }}</a>
                     </div>
                 </div>
             </div> --}}

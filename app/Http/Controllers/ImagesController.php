@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Models\images;
 use App\Models\ImageType;
+use App\Models\Nationalities;
+use App\Models\VipGroups;
 use App\Models\VipsInImages;
 use App\Models\VipsName;
+use App\Models\VipTitles;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -43,7 +46,10 @@ class ImagesController extends Controller
         $types = ImageType::all();
         $data = [
             'VIPs' => $VIPs,
-            'types' => $types
+            'types' => $types,
+            'VIPnationalities'=>Nationalities::all(),
+            'VIPtitles'=>VipTitles::all(),
+            'VIPgroups'=>VipGroups::all()
         ];
         return view('system.images.add')->with($data);
     }

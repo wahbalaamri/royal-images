@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Nationalities extends Model
 {
     use HasFactory;
+    // has many VipsName
+    public function VipsNames()
+    {
+        return $this->hasMany(VipsName::class,'nationality');
+    }
 }

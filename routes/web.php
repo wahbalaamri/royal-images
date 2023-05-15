@@ -7,7 +7,9 @@ use App\Http\Controllers\VipGroupsController;
 use App\Http\Controllers\VipsNameController;
 use App\Http\Controllers\VipTitlesController;
 use App\Models\images;
+use App\Models\VipsName;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,22 +25,22 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-//  app()->setLocale('ar');
+    //  app()->setLocale('ar');
     return view('system.home');
 });
-
-Route::resource('images', ImagesController::class);
-Route::resource('vipsNames', VipsNameController::class);
-Route::resource('imageTypes', ImageTypeController::class);
-Route::post('addVips',[ImagesController::class,'addVips']);
-Route::get('/search',[ImagesController::class,'search'])->name('search');
-Route::post('/search',[ImagesController::class,'getReult']);
+Route::post('getVips', [VipsNameController::class, 'getVipNames'])->name('getVips')->middleware(['auth', 'role:dataEntry']);
+Route::resource('images', ImagesController::class)->middleware(['auth', 'role:viewer']);
+Route::resource('vipsNames', VipsNameController::class)->middleware(['auth', 'role:dataEntry']);
+Route::resource('imageTypes', ImageTypeController::class)->middleware(['auth', 'role:dataEntry']);
+Route::post('addVips', [ImagesController::class, 'addVips'])->middleware(['auth', 'role:dataEntry']);
+Route::get('/search', [ImagesController::class, 'search'])->name('search')->middleware(['auth', 'role:viewer']);
+Route::post('/search', [ImagesController::class, 'getReult'])->middleware(['auth', 'role:viewer']);
 //resource for VipTitlesController
-Route::resource('vipTitles', VipTitlesController::class);
+Route::resource('vipTitles', VipTitlesController::class)->middleware(['auth', 'role:dataEntry']);
 //resource for VipGroupsController
-Route::resource('vipGroups', VipGroupsController::class);
+Route::resource('vipGroups', VipGroupsController::class)->middleware(['auth', 'role:dataEntry']);
 //resource for NationalitiesController
-Route::resource('nationalities', NationalitiesController::class);
+Route::resource('nationalities', NationalitiesController::class)->middleware(['auth', 'role:dataEntry']);
 
 Route::get('/dev/migrate', function () {
     Artisan::call('migrate:fresh');
@@ -56,3 +58,7 @@ Route::get('/dev/seed', function () {
     $dd_output = Artisan::output();
     dd($dd_output);
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -18,15 +18,19 @@
                         <th>#</th>
                         <th>{{ __('اسم الشخصية بالعربية') }}</th>
                         <th>{{ __('اسم الشخصية بالإنجليزية') }}</th>
+                        <th>{{ __('الفئة') }}</th>
+                        <th>{{ __('الصفة') }}</th>
                         <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach ($VIPs as $vip)
                     <tr>
-                        <td>{{ $loop->index + 1 }}</td>
+                        <td>{{ $loop->iteration }}</td>
                         <td>{{ $vip->name_ar }}</td>
                         <td>{{ $vip->name_en }}</td>
+                        <td>{{ $vip->vipGroup->ar_vip_group }}</td>
+                        <td>{{ $vip->vipTitle->ar_vip_title }}</td>
                         <td>
                             <div class="col-9">
                                 <div class="row">
@@ -47,9 +51,9 @@
         </div>
         @else
         <div class="text-center">
-            <div class="alert alert-warning">{{ __('There is No VIP Name') }}</div>
+            <div class="alert alert-warning">{{ __('لم تتم إضافة أسماء كبار الشخصيات بعد') }}</div>
             <div class="col-12">
-                <a href="/vipsNames/create" class="btn btn-lg btn-success">{{ __('Add New VIP Name') }}</a>
+                <a href="/vipsNames/create" class="btn btn-sm btn-success">{{ __('إضافة إسم جديد') }}</a>
             </div>
         </div>
         @endif

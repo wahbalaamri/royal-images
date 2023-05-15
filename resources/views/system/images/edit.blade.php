@@ -8,13 +8,13 @@
             @csrf
             @method('put')
             <div class="form-group mb-4">
-                <label for="image" class="col-form-label">{{ __('Choose Image File') }}</label>
+                <label for="image" class="col-form-label">{{ __('أختر الصورة') }}</label>
                 <input type="file" id="image" name="image" class="form-control" accept="image/*" placeholder="Name" />
             </div>
             <div class="form-group mb-4">
                 <div class="row">
                     <div class="col-8">
-                        <label class="col-form-label"><strong>{{ __('Select VIPS :') }}
+                        <label class="col-form-label"><strong>{{ __('أختر اسماء كبار الشخصيات :') }}
                             </strong></label><br />
                         <select class="selectpicker" multiple data-live-search="true" name="vips[]" id="Names">
 
@@ -36,29 +36,29 @@
                 </div>
             </div>
             <div class="form-group mb-4">
-                <label class="col-form-label"><strong>{{ __('Image Occasion') }}</strong></label><br />
+                <label class="col-form-label"><strong>{{ __('مناسبة الصورة') }}</strong></label><br />
                 <input type="text" class="form-control col-md-8"
                     value="{{ old('image_occasion', $image->image_occasion) }}" name="image_occasion" id="image_occasion">
             </div>
             <div class="form-group mb-4">
-                <label class="col-form-label"><strong>{{ __('Image Quality') }}</strong></label><br />
+                <label class="col-form-label"><strong>{{ __('جودة الصورة') }}</strong></label><br />
                 <input type="text" class="form-control col-md-8" value="{{ old('image_quality', $image->image_quality) }}"
                     name="image_quality" id="image_quality">
             </div>
             <div class="form-group mb-4">
-                <label class="col-form-label"><strong>{{ __('Image Location') }}</strong></label><br />
+                <label class="col-form-label"><strong>{{ __('المكان الذي ألتقطت به الصورة') }}</strong></label><br />
                 <input type="text" class="form-control col-md-8"
                     value="{{ old('image_location', $image->image_location) }}" name="image_location" id="image_location">
             </div>
             <div class="form-group mb-4">
-                <label class="col-form-label"><strong>{{ __('Image Date') }}</strong></label><br />
+                <label class="col-form-label"><strong>{{ __('تاريخ الصورة') }}</strong></label><br />
                 <input type="date" class="form-control col-md-8" name="image_date"
                     value="{{ old('image_date', $image->image_date) }}" id="image_date">
             </div>
             <div class="form-group mb-4">
                 <div class="row">
                     <div class="col-8">
-                        <label class="col-form-label"><strong>{{ __('Image Type') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('نوع الصورة') }}</strong></label><br />
                         <select class="selectpicker" data-live-search="true" name="image_type" id="image_type">
 
                             @if (count($types) > 0)
@@ -70,21 +70,21 @@
                         </select>
                     </div>
                     <div class="col-3">
-                        <a href="/imageTypes/create" class="btn btn-lg btn-info mt-5">{{ __('Add New Image Type') }}</a>
+                        <a href="/imageTypes/create" class="btn btn-lg btn-info mt-5">{{ __('Add New نوع الصورة') }}</a>
                     </div>
                 </div>
             </div>
             <div class="form-group mb-4">
                 <div class="row">
                     <div class="col-8">
-                        <label class="col-form-label"><strong>{{ __('Image Color Type') }}</strong></label><br />
+                        <label class="col-form-label"><strong>{{ __('نوع ألوان الصورة') }}</strong></label><br />
                         <select class="selectpicker" data-live-search="true" name="image_color_type"
                             id="image_color_type">
 
                             <option value="1" @if (old('image_color_type', $image->image_color_type) == 1) selected @endif>
-                                {{ __('Black and White') }}
+                                {{ __('أبيض وأسود') }}
                             </option>
-                            <option value="2" @if (old('image_color_type', $image->image_color_type) == 2) selected @endif>{{ __('Coloured') }}
+                            <option value="2" @if (old('image_color_type', $image->image_color_type) == 2) selected @endif>{{ __('ملون') }}
                             </option>
 
                         </select>
@@ -105,7 +105,7 @@
             <hr class="w-100">
             <div class="form-group mb-2 mt-5 pt-2 pb-1 text-center">
                 <button type="submit" class="btn btn-lg btn-success col-3 text-md-center">
-                    {{ __('Save') }}
+                    {{ __('حفظ') }}
                 </button>
             </div>
         </form>

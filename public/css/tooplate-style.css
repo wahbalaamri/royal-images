@@ -714,3 +714,46 @@ figure.effect-goliath:hover p {
 .tm-static {
     position: static;
 }
+
+.select2-container {
+    min-width: 250px !important;
+}
+
+
+/* Change the font family of the Select2 dropdown */
+
+.select2-container .select2-selection--single,
+.select2-container .select2-selection--multiple {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* Change the background color of the Select2 dropdown */
+
+.select2-container .select2-selection--single,
+.select2-container .select2-selection--multiple {
+    background-color: #f5f5f5;
+}
+
+
+/* Change the color of the Select2 options */
+
+.select2-results__option {
+    color: #333;
+    text-align: right;
+}
+
+
+/* Change the background color of the Select2 options on hover */
+
+.select2-results__option--highlighted {
+    background-color: #000;
+}
+
+.select2-selection__choice__display {
+    color: #000;
+}
+
+.select2-selection__rendered {
+    text-align: right;
+}

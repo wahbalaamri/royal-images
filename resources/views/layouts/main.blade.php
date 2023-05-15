@@ -11,8 +11,10 @@ Template 2109 The Card
 http://www.tooplate.com/view/2109-the-card
 -->
     <!-- load CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
     <!-- Google web font "Open Sans" -->
@@ -37,7 +39,7 @@ http://www.tooplate.com/view/2109-the-card
 
     <div class="tm-main-container">
         <div class="tm-top-container">
-             <!-- Site header -->
+            <!-- Site header -->
             <header class="tm-site-header-box pt-0 pr-0 text-center">
                 <img src="{{ asset('img/diwan-logo.png') }}" height="200" alt="" srcset="">
                 {{-- <h1 class="tm-site-title">{{ __('Diwan of Royal Court') }}</h1>
@@ -50,18 +52,54 @@ http://www.tooplate.com/view/2109-the-card
                     <li class="tm-nav-item active">
                         <a href="/" class="tm-nav-link external">{{__('الرئيسة')}}</a>
                     </li>
+                    @role('viewer')
                     <li class="tm-nav-item">
-                        <a href="/images" class="tm-nav-link external">{{__('الصور')}}</a>
+                        <a href="{{route('search')}}" class="tm-nav-link external">{{__('البحث')}}</a>
+                    </li>
+                    @endrole
+                    @role('dataEntry')
+                    <li class="tm-nav-item">
+                        <a href="{{ route('images.index') }}" class="tm-nav-link external">{{__('الصور')}}</a>
                     </li>
                     <li class="tm-nav-item">
-                        <a href="{{route('search')}}"  class="tm-nav-link external">{{__('البحث')}}</a>
+                        <a href="{{ route('imageTypes.index') }}" class="tm-nav-link external">{{__('أنواع الصور')}}</a>
                     </li>
                     <li class="tm-nav-item">
-                        <a href="/vipsNames"  class="tm-nav-link external">{{__('كبار الشخصيات')}}</a>
+                        <a href="{{ route('vipsNames.index') }}" class="tm-nav-link external">{{__('كبار الشخصيات')}}</a>
                     </li>
                     <li class="tm-nav-item">
-                        <a  href="/imageTypes" class="tm-nav-link external">{{__('أنواع الصور')}}</a>
+                        <a href="{{ route('vipTitles.index') }}" class="tm-nav-link external">{{__('إدارة الصفات')}}</a>
                     </li>
+                    <li class="tm-nav-item">
+                        <a href="{{ route('vipGroups.index') }}" class="tm-nav-link external">{{__('إدارة الفئات')}}</a>
+                    </li>
+                    <li class="tm-nav-item">
+                        <a href="{{ route('nationalities.index') }}" class="tm-nav-link external">{{__('إدارة الجنسيات')}}</a>
+                    </li>
+                    @endrole
+
+                    @role('admin')
+                    <li class="tm-nav-item">
+                        <a href="#" class="tm-nav-link external">{{__('المستخدمين')}}</a>
+                    </li>
+                    @endrole
+                    @guest
+                    <li class="tm-nav-item">
+                        <a href="{{ route('login') }}" class="tm-nav-link external">{{ __('Login') }}</a>
+                    </li>
+                    @else
+                    <li class="tm-nav-item">
+                        <a href="javascript:void(0)" id="LogOutlink" class="tm-nav-link external">{{ __('Log Out')
+                            }}</a>
+                        <form method="POST" id="LogOutForm" class="tm-nav-link external" action="{{ route('logout') }}">
+                            @csrf
+                            {{--
+                            <button type="submit" class="tm-nav-link external">
+                                {{ __('Log Out') }}
+                            </button> --}}
+                        </form>
+                    </li>
+                    @endguest
                 </ul>
             </nav>
 
@@ -86,7 +124,7 @@ http://www.tooplate.com/view/2109-the-card
 
             <!-- Footer -->
             <footer>
-                <span class="" >
+                <span class="">
                     الحقوق محفوظة &copy;2022 ديوان البلاط السلطاني ||
 
                     برمجة: <a rel="nofollow" href="#">المديرية العامة للإتصالات ونظم المعلومات</a>
@@ -95,14 +133,15 @@ http://www.tooplate.com/view/2109-the-card
             </footer>
         </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
 
     <script src="{{ asset('js/jquery-1.11.0.min.js') }}"></script>
     <script src="{{ asset('js/background.cycle.js') }}"></script>
     <script src="{{ asset('slick/slick.min.js') }}"></script>
     <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
     <script>
         let slickInitDone = false;
         let previousImageId = 0,
@@ -208,6 +247,9 @@ http://www.tooplate.com/view/2109-the-card
             $(".cycle-bg-image").css({
                 "background-position": 'center'
             })
+        $("#LogOutlink").click(function(){
+            $("#LogOutForm").submit();
+        });
         }); // DOM is ready
 
         function adjustFooter() {
@@ -272,7 +314,7 @@ http://www.tooplate.com/view/2109-the-card
             });
         }
     </script>
-
+@yield('scripts')
 </body>
 
 </html>

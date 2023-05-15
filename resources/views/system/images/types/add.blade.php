@@ -6,17 +6,17 @@
         <form action="{{ route('imageTypes.store') }}" class="tm-contact-form" method="post" enctype="multipart/form-data">
             @csrf
             <div class="form-group mb-4">
-                <label for="type_ar" class="col-form-label">{{ __("Image Type In Arabic") }}</label>
-                <input type="text" id="type_ar" name="type_ar" value="{{ old('type_ar') }}" class="form-control" placeholder='{{ __("Enter Image Type In Arabic") }}' />
+                <label for="type_ar" class="col-form-label">{{ __("نوع الصورة باللغة العربية") }}</label>
+                <input type="text" id="type_ar" name="type_ar" value="{{ old('type_ar') }}" class="form-control" placeholder='{{ __("أدخل نوع الصورة باللغة العربية") }}' />
             </div>
             <div class="form-group mb-4">
-                <label for="type_en" class="col-form-label">{{ __("Image Type In English") }}</label>
-                <input type="text" id="type_en" name="type_en" value="{{ old('type_en') }}" class="form-control" placeholder='{{ __("Enter Image Type In English") }}' />
+                <label for="type_en" class="col-form-label">{{ __("نوع الصورة باللغة الإنجليزية") }}</label>
+                <input type="text" id="type_en" name="type_en" value="{{ old('type_en') }}" class="form-control" placeholder='{{ __("أدخل نوع الصورة باللغة الإنجليزية") }}' />
             </div>
-            
+
             <div class="form-group mb-0">
                 <button type="submit" class="btn tm-send-btn tm-fl-right">
-                    {{__('Save')}}
+                    {{__('حفظ')}}
                 </button>
             </div>
         </form>

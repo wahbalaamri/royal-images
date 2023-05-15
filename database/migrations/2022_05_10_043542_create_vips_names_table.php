@@ -15,6 +15,9 @@ return new class extends Migration
     {
         Schema::create('vips_names', function (Blueprint $table) {
             $table->id();
+            $table->integer('vip_title');
+            $table->integer('vip_group');
+            $table->integer('nationality');
             $table->string("name_ar");
             $table->string("name_en");
             $table->timestamps();
