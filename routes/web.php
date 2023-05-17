@@ -36,6 +36,7 @@ Route::resource('imageTypes', ImageTypeController::class)->middleware(['auth', '
 Route::post('addVips', [ImagesController::class, 'addVips'])->middleware(['auth', 'role:dataEntry']);
 Route::get('/search', [ImagesController::class, 'search'])->name('search')->middleware(['auth', 'role:viewer']);
 Route::post('/search', [ImagesController::class, 'getReult'])->middleware(['auth', 'role:viewer']);
+Route::post('/downloadImages', [ImagesController::class, 'downloadImages'])->middleware(['auth', 'role:viewer']);
 //resource for VipTitlesController
 Route::resource('vipTitles', VipTitlesController::class)->middleware(['auth', 'role:dataEntry']);
 //resource for VipGroupsController

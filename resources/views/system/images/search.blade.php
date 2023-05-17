@@ -127,8 +127,9 @@
         </div>
         {{-- download button --}}
         <div class="row">
-            <div class="col-12" >
-                <button id="downloadbtn" class="btn btn-primary btn-block text-uppercase" style="display:none" onclick="downloadImages()">Download</button>
+            <div class="col-12">
+                <button id="downloadbtn" class="btn btn-primary btn-block text-uppercase" style="display:none"
+                    onclick="downloadImages()">Download</button>
             </div>
         </div>
     </div>
@@ -207,7 +208,7 @@
 
                 });
                 $('#result').html(imagesDiv)
-                console.log(response);
+
             },
             error: (error) => {
                 console.log(error);
@@ -282,54 +283,84 @@
         // on checkbox click
         $(document).on('click', '.checkbox', function() {
             var id = $(this).attr('data-id');
+            var ids;
             if ($(this).prop("checked") == true) {
-                console.log("Checkbox is checked.");
                 // get number of checkbox checked
                 var checked = $('.checkbox:checked').length;
-                console.log(checked);
                 //get data-id of each checkbox checked
-                var ids = $('.checkbox:checked').map(function() {
+                ids=$('.checkbox:checked').map(function() {
                     return $(this).attr('data-id');
                 }).get();
-                console.log(ids);
                 //if checked grater than zero show otherwise hide
                 if(checked>=1)
                 $("#downloadbtn").show()
                 else
                 $("#downloadbtn").hide()
-                $.ajax({
-                    // url: '#',
-                    type: 'GET',
-                    data: {
-                        'id': id
-                    },
-                    success: function(data) {
-                        $('#cart').html(data);
-                    }
-                })
+
             } else if ($(this).prop("checked") == false) {
-                console.log("Checkbox is unchecked.");
                 var checked = $('.checkbox:checked').length;
-                console.log(checked);
-                var ids = $('.checkbox:checked').map(function() {
+                ids = $('.checkbox:checked').map(function() {
                     return $(this).attr('data-id');
                 }).get();
-                console.log(ids);
                 if(checked>=1)
                 $("#downloadbtn").show()
                 else
                 $("#downloadbtn").hide()
-                $.ajax({
-                    // url: '#',
-                    type: 'GET',
-                    data: {
-                        'id': id
-                    },
-                    success: function(data) {
-                        $('#cart').html(data);
-                    }
-                })
+
             }
+
         });
+        downloadImages=()=>{
+            ids = $('.checkbox:checked').map(function() {
+                    return $(this).attr('data-id');
+                }).get();
+                if(ids.length>0)
+                {
+                    $.ajax({
+                        url: '/downloadImages',
+                        data: {
+                            ids: ids,
+                            _token: '{{ csrf_token() }}'
+                        },
+                        type: "post",
+                        success: function(response) {
+                            console.log(response);
+                            if(response.status)
+                            {
+                                //data
+                                data=response.data;
+                                //image data
+                                images=data.images;
+                               //for each image in images print id
+                                 images.forEach(element => {
+                                      //create link to download image
+                                      var link = document.createElement('a');
+                                        link.href = "{{ asset('uploaded_images') }}/"+element.image_url;
+                                        link.download = element.image_url;
+                                        document.body.appendChild(link);
+                                        link.click();
+                                        link.remove();
+                                        //
+                                    });
+                                    //download data as json file
+                                    var dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(data));
+                                    var downloadAnchorNode = document.createElement('a');
+                                    downloadAnchorNode.setAttribute("href", dataStr);
+                                    downloadAnchorNode.setAttribute("download", "data.json");
+                                    document.body.appendChild(downloadAnchorNode); // Required for Firefox
+                                    downloadAnchorNode.click();
+                                    downloadAnchorNode.remove();
+                            }
+                        },
+                        error: function(response) {
+                            console.log('error');
+                            console.log(response);
+                            }
+                    });
+                }
+                else{
+                    console.log("no imagess");
+                }
+        }
     });
 </script>

@@ -12,6 +12,7 @@ use App\Models\VipTitles;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 use PhpParser\Node\Expr\Cast\String_;
 
 class ImagesController extends Controller
@@ -259,5 +260,44 @@ class ImagesController extends Controller
         } catch (Exception $ex) {
             return response()->json($ex);
         }
+    }
+    public function downloadImages(Request $request)
+    {
+        $image_ids=$request->ids;
+        $images=images::whereIn('id',$image_ids)->get();
+        //get image_types with distinct
+        $image_type_ids=$images->pluck('image_type')->unique();
+        $image_types=ImageType::whereIn('id',$image_type_ids)->get();
+        //get vips_in_image with distinct
+        $vips_in_image=VipsInImages::whereIn('image_id',$image_ids)->get();
+        //get unique vip_id from VipsInImages
+        $vip_ids=$vips_in_image->pluck('vip_id')->unique();
+        //get vip names
+        $vip_names=VipsName::whereIn('id',$vip_ids)->get();
+        //get vip_title with distinct
+        $vip_title_ids=$vip_names->pluck('vip_title')->unique();
+        $vip_title=VipTitles::whereIn('id',$vip_title_ids)->get();
+        //get vip_group with distinct
+        $vip_group_ids=$vip_names->pluck('vip_group')->unique();
+        $vip_group=VipGroups::whereIn('id',$vip_group_ids)->get();
+        //get nationality with distinct
+        $nationality_ids=$vip_names->pluck('nationality')->unique();
+        $nationality=Nationalities::whereIn('id',$nationality_ids)->get();
+        // return json array with result
+        $data = [
+            'images' => $images,
+            'image_types' => $image_types,
+            'vips_in_image' => $vip_names,
+            'vip_title' => $vip_title,
+            'vip_group' => $vip_group,
+            'nationality' => $nationality
+        ];
+        // Log::alert($images);
+        // Log::alert($image_types);
+        // Log::alert($vip_names);
+        // Log::alert($vip_title);
+        // Log::alert($vip_group);
+        // Log::alert($nationality);
+        return response()->json(['status'=>'success','data'=>$data]);
     }
 }
