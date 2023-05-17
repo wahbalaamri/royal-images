@@ -26,7 +26,7 @@
     <section class="tm-section tm-section-3 col-lg-10">
         <div class="tm-textbox tm-bg-dark" dir="rtl">
             <h2 class="text-white mb-4 text-uppercase float-right">
-                {{ __('Images') }}
+                {{ __('الصور') }}
             </h2>
             {{-- <div class="card">
                 <div class="card-header">

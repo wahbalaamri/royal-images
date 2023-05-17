@@ -287,7 +287,8 @@ class ImagesController extends Controller
         $data = [
             'images' => $images,
             'image_types' => $image_types,
-            'vips_in_image' => $vip_names,
+            'vips_in_image' => $vips_in_image,
+            'vip_names' => $vip_names,
             'vip_title' => $vip_title,
             'vip_group' => $vip_group,
             'nationality' => $nationality
