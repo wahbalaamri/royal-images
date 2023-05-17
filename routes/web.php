@@ -3,6 +3,7 @@
 use App\Http\Controllers\ImagesController;
 use App\Http\Controllers\ImageTypeController;
 use App\Http\Controllers\NationalitiesController;
+use App\Http\Controllers\UsersController;
 use App\Http\Controllers\VipGroupsController;
 use App\Http\Controllers\VipsNameController;
 use App\Http\Controllers\VipTitlesController;
@@ -41,7 +42,10 @@ Route::resource('vipTitles', VipTitlesController::class)->middleware(['auth', 'r
 Route::resource('vipGroups', VipGroupsController::class)->middleware(['auth', 'role:dataEntry']);
 //resource for NationalitiesController
 Route::resource('nationalities', NationalitiesController::class)->middleware(['auth', 'role:dataEntry']);
-
+//resource for UsersController
+Route::resource('users', UsersController::class)->middleware(['auth', 'role:admin']);
+Route::post('users/SaveRoles/{id}', [UsersController::class,'SaveRole'])->name('users.SaveRoles')->middleware(['auth', 'role:admin']);
+Route::get('users/ChangeRoles/{id}', [UsersController::class,'changeRole'])->name('users.ChangeRoles')->middleware(['auth', 'role:admin']);
 Route::get('/dev/migrate', function () {
     Artisan::call('migrate:fresh');
     $dd_output = Artisan::output();

@@ -1,152 +1,158 @@
 @extends('layouts.main')
 
 @section('content')
-    <!-- Section 3 Contact -->
-    <section class="tm-section tm-section-3">
-        <form class="tm-contact-form">
-            <div class="form-group mb-4">
-                <div class="row">
-                    <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('أختر اسماء كبار الشخصيات :') }}</strong></label><br />
-                        <select class="selectpicker form-control" multiple data-live-search="true" name="vips[]" id="Names"
-                            onchange="search()">
+<!-- Section 3 Contact -->
+<section class="tm-section tm-section-3">
+    <form class="tm-contact-form">
+        <div class="form-group mb-4">
+            <div class="row">
+                <div class="col-6">
+                    <label class="col-form-label"><strong>{{ __('أختر اسماء كبار الشخصيات :') }}</strong></label><br />
+                    <select class="selectpicker form-control" multiple data-live-search="true" name="vips[]" id="Names"
+                        onchange="search()">
 
-                            @if (count($VIPs) > 0)
-                                @foreach ($VIPs as $VIP)
-                                    <option value="{{ $VIP->id }}">{{ $VIP->name_en }}</option>
-                                @endforeach
-                            @endif
-                        </select>
-                    </div>
-                    <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('مناسبة الصورة') }}</strong></label><br />
-                        <input type="text" class="form-control col-md-8 typeahead" name="image_occasion" id="image_occasion"
-                            onchange="search()">
-                    </div>
+                        @if (count($VIPs) > 0)
+                        @foreach ($VIPs as $VIP)
+                        <option value="{{ $VIP->id }}">{{ $VIP->name_en }}</option>
+                        @endforeach
+                        @endif
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label class="col-form-label"><strong>{{ __('مناسبة الصورة') }}</strong></label><br />
+                    <input type="text" class="form-control col-md-8 typeahead" name="image_occasion" id="image_occasion"
+                        onchange="search()">
                 </div>
             </div>
+        </div>
 
-            <div class="form-group mb-4">
-                <div class="row">
-                    <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('جودة الصورة') }}</strong></label><br />
-                        <input type="text" class="form-control col-md-8" name="image_quality" id="image_quality"
-                            onchange="search()">
-                    </div>
+        <div class="form-group mb-4">
+            <div class="row">
+                <div class="col-6">
+                    <label class="col-form-label"><strong>{{ __('جودة الصورة') }}</strong></label><br />
+                    <input type="text" class="form-control col-md-8" name="image_quality" id="image_quality"
+                        onchange="search()">
+                </div>
 
-                    <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('المكان الذي ألتقطت به الصورة') }}</strong></label><br />
-                        <input type="text" class="form-control col-md-8 typeahead" name="image_location" onchange="search()"
-                            id="image_location">
-                    </div>
+                <div class="col-6">
+                    <label class="col-form-label"><strong>{{ __('المكان الذي ألتقطت به الصورة')
+                            }}</strong></label><br />
+                    <input type="text" class="form-control col-md-8 typeahead" name="image_location" onchange="search()"
+                        id="image_location">
                 </div>
             </div>
+        </div>
 
-            <div class="form-group mb-4">
-                <div class="row">
-                    <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('تاريخ الصورة From') }}</strong></label><br />
-                        <input type="date" class="form-control col-md-8" name="image_date" id="image_date_from"
-                            onchange="search()">
-                    </div>
-                    <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('تاريخ الصورة To') }}</strong></label><br />
-                        <input type="date" class="form-control col-md-8" name="image_date_to" id="image_date_to"
-                            onchange="search()">
-                    </div>
-
+        <div class="form-group mb-4">
+            <div class="row">
+                <div class="col-6">
+                    <label class="col-form-label"><strong>{{ __('تاريخ الصورة From') }}</strong></label><br />
+                    <input type="date" class="form-control col-md-8" name="image_date" id="image_date_from"
+                        onchange="search()">
                 </div>
-            </div>
-
-            <div class="form-group mb-4">
-                <div class="row">
-                    <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('نوع الصورة') }}</strong></label><br />
-                        <select class="selectpicker form-control" data-live-search="true" name="image_type" id="image_type"
-                            onchange="search()">
-                            <option value="">{{ __('SELECT') }}</option>
-                            @if (count($types) > 0)
-                                @foreach ($types as $type)
-                                    <option value="{{ $type->id }}">
-                                        {{ $type->type_en }}</option>
-                                @endforeach
-                            @endif
-                        </select>
-                    </div>
-                    <div class="col-6">
-                        <label class="col-form-label"><strong>{{ __('نوع ألوان الصورة') }}</strong></label><br />
-                        <select class="selectpicker form-control" data-live-search="true" name="image_color_type"
-                            id="image_color_type" onchange="search()">
-                            <option value="">{{ __('SELECT') }}</option>
-                            <option value="1">
-                                {{ __('أبيض وأسود') }}
-                            </option>
-                            <option value="2">{{ __('ملون') }}
-                            </option>
-
-                        </select>
-                    </div>
-
+                <div class="col-6">
+                    <label class="col-form-label"><strong>{{ __('تاريخ الصورة To') }}</strong></label><br />
+                    <input type="date" class="form-control col-md-8" name="image_date_to" id="image_date_to"
+                        onchange="search()">
                 </div>
-            </div>
-            {{-- <div class="form-group mb-4">
 
             </div>
-            <div class="form-group mb-4">
+        </div>
 
-            </div>
-            <div class="form-group mb-4">
-                <div class="row">
-                    <div class="col-8">
-
-                    </div>
-                    <div class="col-3">
-                        <a href="/imageTypes/create" class="btn btn-lg btn-info mt-5">{{ __('Add New نوع الصورة') }}</a>
-                    </div>
+        <div class="form-group mb-4">
+            <div class="row">
+                <div class="col-6">
+                    <label class="col-form-label"><strong>{{ __('نوع الصورة') }}</strong></label><br />
+                    <select class="selectpicker form-control" data-live-search="true" name="image_type" id="image_type"
+                        onchange="search()">
+                        <option value="">{{ __('SELECT') }}</option>
+                        @if (count($types) > 0)
+                        @foreach ($types as $type)
+                        <option value="{{ $type->id }}">
+                            {{ $type->type_en }}</option>
+                        @endforeach
+                        @endif
+                    </select>
                 </div>
-            </div> --}}
-        </form>
+                <div class="col-6">
+                    <label class="col-form-label"><strong>{{ __('نوع ألوان الصورة') }}</strong></label><br />
+                    <select class="selectpicker form-control" data-live-search="true" name="image_color_type"
+                        id="image_color_type" onchange="search()">
+                        <option value="">{{ __('SELECT') }}</option>
+                        <option value="1">
+                            {{ __('أبيض وأسود') }}
+                        </option>
+                        <option value="2">{{ __('ملون') }}
+                        </option>
 
-        <div class="tm-contact-form mt-5">
-            <div class="container"id="result">
-                {{-- <label class="option_item">
-                        <input type="checkbox" class="checkbox" data-id="12">
-                        <div class="option_inner facebook">
-                            <div class="tickmark" ></div>
-                            <div class="icon">
-                                <div class="row" id="result">
-
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </label> --}}
+                    </select>
+                </div>
 
             </div>
+        </div>
+        {{-- <div class="form-group mb-4">
 
         </div>
-    </section>
-    <!-- Modal -->
-    <div class="modal fade" id="viewImageModal" tabindex="-1" aria-labelledby="viewImageModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="viewImageModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <img src="" alt="" srcset="" class="img-fluid">
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <div class="form-group mb-4">
+
+        </div>
+        <div class="form-group mb-4">
+            <div class="row">
+                <div class="col-8">
 
                 </div>
+                <div class="col-3">
+                    <a href="/imageTypes/create" class="btn btn-lg btn-info mt-5">{{ __('Add New نوع الصورة') }}</a>
+                </div>
+            </div>
+        </div> --}}
+    </form>
+
+    <div class="tm-contact-form mt-5">
+        <div class="container" id="result">
+            {{-- <label class="option_item">
+                <input type="checkbox" class="checkbox" data-id="12">
+                <div class="option_inner facebook">
+                    <div class="tickmark"></div>
+                    <div class="icon">
+                        <div class="row" id="result">
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </label> --}}
+
+        </div>
+        {{-- download button --}}
+        <div class="row">
+            <div class="col-12" >
+                <button id="downloadbtn" class="btn btn-primary btn-block text-uppercase" style="display:none" onclick="downloadImages()">Download</button>
             </div>
         </div>
     </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="viewImageModal" tabindex="-1" aria-labelledby="viewImageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="viewImageModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="" alt="" srcset="" class="img-fluid">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
@@ -159,7 +165,6 @@
         height: 40px;
         width: 400px !important;
     }
-
 </style>
 <!-- Initialize the plugin: -->
 <script type="text/javascript">
@@ -199,7 +204,7 @@
                             '<div class="tickmark" ></div>'+
                             '<div class="icon"><a href="#" data-toggle="modal" data-target="#viewImageModal" onclick="show_image(this)">' +
                         "<img src='../uploaded_images/" + element.image_url+"' class='card-img-top' alt='...'> </a> </div></div></label>"
-                    console.log();
+
                 });
                 $('#result').html(imagesDiv)
                 console.log(response);
@@ -217,6 +222,7 @@
         $('.tm-section-1').css("display", "block");
         $('input[type=file]').change(function() {
             console.log(this.files[0].mozFullPath);
+
         });
     });
     AddVip = () => {
@@ -271,6 +277,59 @@
             var value = $(this).text();
             $('#name').val(value);
             $('#product_list').html("");
+
         });
-    });;
+        // on checkbox click
+        $(document).on('click', '.checkbox', function() {
+            var id = $(this).attr('data-id');
+            if ($(this).prop("checked") == true) {
+                console.log("Checkbox is checked.");
+                // get number of checkbox checked
+                var checked = $('.checkbox:checked').length;
+                console.log(checked);
+                //get data-id of each checkbox checked
+                var ids = $('.checkbox:checked').map(function() {
+                    return $(this).attr('data-id');
+                }).get();
+                console.log(ids);
+                //if checked grater than zero show otherwise hide
+                if(checked>=1)
+                $("#downloadbtn").show()
+                else
+                $("#downloadbtn").hide()
+                $.ajax({
+                    // url: '#',
+                    type: 'GET',
+                    data: {
+                        'id': id
+                    },
+                    success: function(data) {
+                        $('#cart').html(data);
+                    }
+                })
+            } else if ($(this).prop("checked") == false) {
+                console.log("Checkbox is unchecked.");
+                var checked = $('.checkbox:checked').length;
+                console.log(checked);
+                var ids = $('.checkbox:checked').map(function() {
+                    return $(this).attr('data-id');
+                }).get();
+                console.log(ids);
+                if(checked>=1)
+                $("#downloadbtn").show()
+                else
+                $("#downloadbtn").hide()
+                $.ajax({
+                    // url: '#',
+                    type: 'GET',
+                    data: {
+                        'id': id
+                    },
+                    success: function(data) {
+                        $('#cart').html(data);
+                    }
+                })
+            }
+        });
+    });
 </script>

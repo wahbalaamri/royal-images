@@ -80,7 +80,7 @@ http://www.tooplate.com/view/2109-the-card
 
                     @role('admin')
                     <li class="tm-nav-item">
-                        <a href="#" class="tm-nav-link external">{{__('المستخدمين')}}</a>
+                        <a href="{{ route('users.index') }}" class="tm-nav-link external">{{__('المستخدمين')}}</a>
                     </li>
                     @endrole
                     @guest

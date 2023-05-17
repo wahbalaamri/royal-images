@@ -67,7 +67,7 @@
                     <option value="{{ $VIP->id }}" @if (old('vips') !=null) @if (in_array($VIP->id,
                         old('vips')))
                         selected @endif
-                        @endif>{{ $VIP->name_en }}</option>
+                        @endif>{{ $VIP->name_ar }}</option>
                     @endforeach
                     @endif
                 </select>
@@ -268,7 +268,7 @@
                 },
                 function(data, status){
                     // console.log(data);
-                    // $("#Names").empty();
+                     $("#Names").empty();
                     // $("#Names").append("<option value='' >أختر</option>");
                     $.each(data, function(index, value) {
                         $("#Names").append("<option value='"+value.id+"'>"+value.name_ar+"</option>");
