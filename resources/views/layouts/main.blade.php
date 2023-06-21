@@ -2,10 +2,14 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>{{ __('Diwan of Royal Court - Royal Images') }}</title>
+
+         <!--header class="top-head transparent semi light fullx header-1 fixed-head" style="z-index: 1000000;"-->
+
+ 
+
+    <title>{{ __('Diwan of Royal Court - Royal Images-news') }}</title>
+
     <!--
 Template 2109 The Card
 http://www.tooplate.com/view/2109-the-card
@@ -15,7 +19,8 @@ http://www.tooplate.com/view/2109-the-card
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" />
     <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
@@ -23,9 +28,24 @@ http://www.tooplate.com/view/2109-the-card
     <link rel="stylesheet" href="{{ asset('slick/slick.css') }}" />
     <link rel="stylesheet" href="{{ asset('slick/slick-theme.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/tooplate-style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/tooplate-style.css') }}" />     
     <link rel="stylesheet" href="{{ asset('css/selector.css') }}" />
-
+    <link rel="stylesheet" href="{{ asset('css/shortcodes.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/assets.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/light.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/magazine-rtl.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/settings.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/navigation.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/rtl.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/default.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/magazine.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/settings2.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/pe-icon-7-stroke.css') }}" />
+     
+  
+    	
+            	
     <!-- Templatemo style -->
 </head>
 
@@ -38,25 +58,125 @@ http://www.tooplate.com/view/2109-the-card
     </div>
 
     <div class="tm-main-container">
-        <div class="tm-top-container">
+    <div class="head-border">
             <!-- Site header -->
-            <header class="tm-site-header-box pt-0 pr-0 text-center">
-                <img src="{{ asset('img/diwan-logo.png') }}" height="200" alt="" srcset="">
+            <header class="top-head header-1 semi light skew transparent fixed-head" style="z-index: 10000000;">
+            <div class="containerX">
+               <!-- Logo start -->
+               <div class="logo">
+              <a> <img src="{{ asset('img/diwan-logo.png') }}" height="200" alt="" srcset=""   ></a>
+               </div>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+           <!-- <header class="tm-site-header-box pt-0 pr-0 text-center">
+                <img src="{{ asset('img/diwan-logo.png') }}" height="200" alt="" srcset=""   >
                 {{-- <h1 class="tm-site-title">{{ __('Diwan of Royal Court') }}</h1>
-                <p class="mb-0 tm-site-subtitle text-uppercase">Royal images</p> --}}
-            </header>
+                <p class="mb-0 tm-site-subtitle text-uppercase">Royal images</p> --}}-->
+            
+                <div >
+<nav class="top-nav">
+   <ul>
+    
+   @role('dataEntry')
+      <li><a href="/"><span><i class="fa fa-home shown"></i></span></a></li>						
+      <li><a href="{{ route('images.index') }}" ><span>{{__('الصور')}}</span> </a>
+	                        
+      </li>
+	  	  
+	  <li >
+      <a href="{{ route('imageTypes.index') }}"><span>{{__('أنواع الصور')}} </span></a>
+        
+      </li>
+      <li >
+      <a href="{{ route('vipsNames.index') }}"><span>{{__('كبار الشخصيات')}} </span></a>
+        
+      </li>
+	  
+      <li >
+      <a href="{{ route('vipTitles.index') }}"><span>{{__('إدارة الصفات')}}</span></a>
+        
+      </li>
+      <li >
+      <a href="{{ route('vipGroups.index') }}"><span>{{__('إدارة الفئات')}} </span></a>
+        
+      </li>
+      <li >
+      <a href="{{ route('nationalities.index') }}" ><span>{{__('إدارة الجنسيات')}}</span></a>
+        
+      </li>
+      @endrole
+      @role('admin')
+      <li >
+      <a href="{{ route('users.index') }}" ><span>{{__('المستخدمين')}}</span></a>
+        
+      </li>
+      @endrole
+                   
+      @role('viewer')
+      <li >
+      <a href="{{route('search')}}" ><span>{{__('البحث')}}</span></a>
+        
+      </li>
+      @endrole
+      @guest
+      <li>
+      <a href="{{ route('login') }}" ><span>{{ __('Login') }}</span></a>
+      
+                    </li>
+      
+                    @else
+                    <li class="">
+                        <a href="javascript:void(0)" id="LogOutlink" class="tm-nav-link external"><span>{{ __('خروج')
+                            }}</span></a>
+                        <form method="POST" id="LogOutForm" class="tm-nav-link external" action="{{ route('logout') }}">
+                            @csrf
+                            {{--
+                            <button type="submit" class="tm-nav-link external">
+                                {{ __('Log Out') }}
+                            </button> --}}
+                        </form>
+                    </li>
+                    @endguest
+                    
+                    <li >
+                        <a href="/" ><span>{{__('الرئيسة')}}</span></a>
+                    </li>
+   </ul>
+</nav>
+
+<!-- top navigation menu end -->
+
+   <!-- top search end -->
+</div>
+
+
+
+
+</div>
             <!-- Menu -->
-            <nav id="tmNav" class="tm-nav pt-5 pl-3">
-                <a class="tm-navbar-menu" href="#">القائمة</a>
-                <ul class="tm-nav-links">
-                    <li class="tm-nav-item active">
-                        <a href="/" class="tm-nav-link external">{{__('الرئيسة')}}</a>
-                    </li>
-                    @role('viewer')
+           
+              <!--  <a class="tm-navbar-menu" href="#">القائمة</a> -->
+              <!--  <ul >
+                @guest
                     <li class="tm-nav-item">
-                        <a href="{{route('search')}}" class="tm-nav-link external">{{__('البحث')}}</a>
+                        <a href="{{ route('login') }}" class="tm-nav-link external">{{ __('Login') }}</a>
                     </li>
-                    @endrole
+                    @else
+                  <!--  <li class="tm-nav-item">
+                    <a href="{{ route('login') }}" class="tm-nav-link external">{{ __('خروج') }}</a>
+                    </li>-->
+                  <!--  <li class="tm-nav-item">
+                         <a href="javascript:void(0)" id="LogOutlink" class="tm-nav-link external">{{ __('خروج')
+                            }}</a>
+                        <form method="POST" id="LogOutForm" class="tm-nav-link external" action="{{ route('logout') }}">
+                            @csrf
+                            {{--
+                            <button type="submit" class="tm-nav-link external">
+                                {{ __('Log Out') }}
+                            </button> --}}
+                        </form>
+                    </li> 
+                    @endguest
                     @role('dataEntry')
                     <li class="tm-nav-item">
                         <a href="{{ route('images.index') }}" class="tm-nav-link external">{{__('الصور')}}</a>
@@ -77,36 +197,29 @@ http://www.tooplate.com/view/2109-the-card
                         <a href="{{ route('nationalities.index') }}" class="tm-nav-link external">{{__('إدارة الجنسيات')}}</a>
                     </li>
                     @endrole
-
+                    
                     @role('admin')
                     <li class="tm-nav-item">
                         <a href="{{ route('users.index') }}" class="tm-nav-link external">{{__('المستخدمين')}}</a>
                     </li>
                     @endrole
-                    @guest
+                   
+                    @role('viewer')
                     <li class="tm-nav-item">
-                        <a href="{{ route('login') }}" class="tm-nav-link external">{{ __('Login') }}</a>
+                        <a href="{{route('search')}}" class="tm-nav-link external" >{{__('البحث')}}</a>
                     </li>
-                    @else
-                    <li class="tm-nav-item">
-                        <a href="javascript:void(0)" id="LogOutlink" class="tm-nav-link external">{{ __('Log Out')
-                            }}</a>
-                        <form method="POST" id="LogOutForm" class="tm-nav-link external" action="{{ route('logout') }}">
-                            @csrf
-                            {{--
-                            <button type="submit" class="tm-nav-link external">
-                                {{ __('Log Out') }}
-                            </button> --}}
-                        </form>
+                    @endrole
+                   <!-- <li class="fa fa-home">
+                        <a href="/" class="tm-nav-link external">{{__('الرئيسة')}}</a>
                     </li>
-                    @endguest
+                    <li class="selected"><a href="/" class="fa fa-home shown"></i></span></a></li>
                 </ul>
             </nav>
-
-
+            </div>-->
+            </header>
+                            </DIV>
+                            
         </div>
-        <!-- tm-top-container -->
-
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
@@ -119,29 +232,41 @@ http://www.tooplate.com/view/2109-the-card
                 </div>
             </div>
         </div>
+        <!-- tm-top-container -->
 
-        <div class="tm-bottom-container" style="min-width: 100%">
+        
+        <footer>
+        
 
             <!-- Footer -->
-            <footer>
-                <span class="">
-                    الحقوق محفوظة &copy;2022 ديوان البلاط السلطاني ||
-
-                    برمجة: <a rel="nofollow" href="#">المديرية العامة للإتصالات ونظم المعلومات</a>
-                    ||
-                </span>
-            </footer>
+            <div class="footer-middle">
+            
+               <div class="container">
+                  <div class="row">
+            
+         
+            
+              <span>الحقوق محفوظة &copy; ديوان البلاط السلطاني 2022</span>
+              <span>برمجة: <a rel="nofollow" href="#">المديرية العامة للإتصالات ونظم المعلومات</a> </span>
+            
+          
+        
         </div>
-    </div>
+        </div>
+        </div>
+        </footer>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> --}}
 
     <script src="{{ asset('js/jquery-1.11.0.min.js') }}"></script>
     <script src="{{ asset('js/background.cycle.js') }}"></script>
     <script src="{{ asset('slick/slick.min.js') }}"></script>
+    <script src="{{ asset('js/assets.js') }}"></script>
     <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-
+    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/script.js') }}"></script>
     <script>
         let slickInitDone = false;
         let previousImageId = 0,
@@ -194,7 +319,7 @@ http://www.tooplate.com/view/2109-the-card
 
             // Set Background images
             // https://www.jqueryscript.net/slideshow/Simple-jQuery-Background-Image-Slideshow-with-Fade-Transitions-Background-Cycle.html
-            bgCycle = $("body").backgroundCycle({
+         /*   bgCycle = $("body").backgroundCycle({
                 imageUrls: [
                     "{{ asset('img/AlaalamPalce.png') }}",
                     "{{ asset('img/AlaalamPalce.png') }}",
@@ -204,7 +329,7 @@ http://www.tooplate.com/view/2109-the-card
                 fadeSpeed: 2000,
                 duration: -1,
                 backgroundSize: SCALING_MODE_COVER
-            });
+            });*/
 
             eachNavLink = $(".tm-nav-link");
             links = $(".tm-nav-links");

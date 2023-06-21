@@ -1,0 +1,1982 @@
+
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+   <head>
+   
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MCGMJPHYQ9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MCGMJPHYQ9');
+</script>
+   
+   
+      <base href="/" >
+      <title>البوابة التعليمية </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="generator" content="Fiction X 4.0.0 copyRight 2019">
+      <meta name="resource-type" content="document">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="keywords" content="Fiction X,Portal,Content Management System,demo,news,articles,videos,photos,downloads,regional news, برنامج ادارة المحتوى
+">
+      <meta name="page-type" content="Professional Content Management System">
+      <meta name="robots" content="index,follow">
+      <meta name="description" content="الموقع الرسمي لوزارة التربية والتعليم
+">
+      <meta name="revisit-after" content="1 days">
+      <meta name="rating" content="index">
+      <meta name="author" content="FictionX Team">
+      <!-- Devices Meta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <!-- Put favicon.ico and apple-touch-icon(s).png in the images folder -->
+      <link rel="shortcut icon" href="templates/moe/assets/images/favicon.png">
+      <!--link href='https://fonts.googleapis.com/css?family=Oswald:400,100,300,500,700%7CLato:400,300,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'-->
+      <!-- Plugins CSS files -->
+      <link rel="stylesheet" href="templates/moe/assets/css/assets.css">
+      <link rel="stylesheet" href="templates/moe/assets/css/style.css">
+      <link rel="stylesheet" href="templates/moe/assets/css/shortcodes.css">
+      <!-- REVOLUTION SLIDER STYLES -->
+      <link rel="stylesheet" href="templates/moe/assets/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" type="text/css">
+      <link rel="stylesheet" href="templates/moe/assets/revolution/css/settings.css" type="text/css">
+      <link rel="stylesheet" href="templates/moe/assets/revolution/css/navigation.css" type="text/css">
+    		<link rel="stylesheet" href="templates/moe/assets/rs-plugin/css/settings.css">
+      <!-- Magazine Styles -->
+      <link rel="stylesheet" href="templates/moe/assets/css/demos/magazine.css" type="text/css">
+      <link id="theme_css" rel="stylesheet" href="templates/moe/assets/css/light.css">
+      <link id="skin_css" rel="stylesheet" href="templates/moe/assets/css/skins/default.css">
+               <link rel="stylesheet" href="templates/moe/assets/css/rtl.css">
+         <link rel="stylesheet" href="templates/moe/assets/css/magazine-rtl.css">
+            	  
+	  
+	  
+   </head>
+   <body>
+   
+   
+   <!--div style="float:top left; position:absolute; overflow:visible; left:190px; top:0px; height:116px; width:116px; position:fixed">
+<a href="" target="_blank">
+<img src="https://home.moe.gov.om/file/fan2.png" width="50,height="100" alt="رمضان كريم" title="احصل على هذه الإضافة" border="0"/>
+</a></div>
+
+<div style="float:top left; position:absolute; overflow:visible; left:130px; top:0px; height:116px; width:116px; position:fixed">
+<a href="" target="_blank">
+<img src="https://home.moe.gov.om/file/fan3.png" width="50,height="100" alt="رمضان كريم" title="احصل على هذه الإضافة" border="0"/>
+</a></div>
+
+
+<div style="float:top right; position:absolute; overflow:visible; right:190px; top:0px; height:116px; width:116px; position:fixed">
+<a href="" target="_blank">
+<img src="https://home.moe.gov.om/file/fan2.png" width="50,height="100" alt="رمضان كريم" title="احصل على هذه الإضافة" border="0"/>
+</a></div>
+
+<div style="float:top right; position:absolute; overflow:visible; right:130px; top:0px; height:116px; width:116px; position:fixed">
+<a href="" target="_blank">
+<img src="https://home.moe.gov.om/file/fan3.png" width="50,height="100" alt="رمضان كريم" title="احصل على هذه الإضافة" border="0"/>
+</a></div>
+
+   
+      <!-- site preloader start -->
+      <div class="page-loader"></div>
+      <!-- site preloader end -->
+      <div class="pageWrapper">
+      <div class="top-bar no-border"  style="background-color: #2d2d2d;color: #999;">
+         <div class="container">
+            <div class="col-md-4 hidden-xs">
+               <ul class="top-info">
+                  <li><i class="fa fa-envelope main-color"></i> <a href="mailto:moe@moe.om">moe@moe.om</a></li>
+                  <li class="directionltr"><i class="fa fa-phone main-color"></i>+968 24255552 </li>
+				  <!--li><span style="color: #FFCC33;"><i class="fa fa-bell" style="font-size:12px;color:red"> </i> <a href="https://home.moe.gov.om/updates/3/show/1304"><span style="color: #FFCC33;">تنبــــــيه</span></a></li-->
+                  <!--li><span style="font-size: 12px;font-family: 'Noto Sans Kufi Arabic', sans-serif !important;"><i class="fa fa-calendar"></i> الأحد : ١٨ - يونيو - ٢٠٢٣</span></li-->
+                  <!--li><span style="font-size: 12px;font-family: 'Noto Sans Kufi Arabic', sans-serif !important;"><i class="fa fa-calendar"></i>29 ذو القعدة 1444 هـ</span></li>
+                     <li><span style="font-size: 12px;font-family: 'Noto Sans Kufi Arabic', sans-serif !important;">  <i class="fa fa-clock-o"></i>الساعة الآن : ٠٩:٥٨ مساءً</span></li-->
+               </ul>
+            </div>
+            <div class="col-md-2 hidden-xs" style="display: inline-flex; padding: 5px 69px 7px;z-index: 1;">
+               <div class="right-border-radius-10" style="background-color: #3c3c3c; padding: 0px 20px;" > <a data-toggle="tooltip" data-placement="bottom" data-original-title="increase Font size"  href="javascript:void(0)" class="increase top-font-sizing"><span class="fa fa-angle-double-up" style="font-size: 28px;vertical-align: middle;"></span></a></div>
+               <div style="background-color: #3c3c3c; padding: 0px 20px;"> <a data-toggle="tooltip" data-placement="bottom" data-original-title="reset Font size"  href="javascript:void(0)" class="resetMe"><span class="fa fa-font" style="font-size: 25px;vertical-align: middle;"></span></a></div>
+               <div class="left-border-radius-10" style="background-color: #3c3c3c; padding: 0px 20px;"> <a data-toggle="tooltip" data-placement="bottom" data-original-title="decrease Font size"  href="javascript:void(0)" class="decrease top-font-sizing"><span class="fa fa-angle-double-down" style="font-size: 28px;vertical-align: middle;"></span></a></div>
+            </div>
+            <div class="col-md-6">
+               <ul class="top-info f-right">
+                  <li class="f-left social-list hidden-xs">
+                     <a href="https://www.facebook.com/EduGovOm/" data-toggle="tooltip" data-placement="bottom" data-original-title="Facebook"><i class="fa fa-facebook ic-facebook no-border"></i></a>
+                     <a href="http://twitter.com/#!/EduGovOman" data-toggle="tooltip" data-placement="bottom" data-original-title="Twitter"><i class="fa fa-twitter ic-twitter no-border"></i></a>
+                     <a href="https://www.youtube.com/EduGovOman" data-toggle="tooltip" data-placement="bottom" data-original-title="youtube"><i class="fa fa-youtube ic-youtube no-border"></i></a>
+                     <a href="https://www.instagram.com/EduGovOman/?hl=en" data-toggle="tooltip" data-placement="bottom" data-original-title="instagram"><i class="fa fa-instagram ic-instagram no-border"></i></a>
+                     <a href="https://api.whatsapp.com/send?phone=96894776616" data-toggle="tooltip" data-placement="bottom" data-original-title="whatsapp"><i class="fa fa-whatsapp ic-whatsapp no-border"></i></a>
+                  </li>
+                  <li><a href="https://certificate.moe.gov.om/Portal/Services/UserLoginnew.aspx" class="shape btn-orange" style="padding: 0 10px;font-weight: bold;"><i class="fa fa-lock"></i>دخول النظام</a></li>
+                 
+				 <!--li class="dropdown language-selector">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true"><img alt="" src="assets/global/img/flags/om.png">  العربية</a>                                          <ul class="dropdown-menu">
+                        <li>
+                           <a href="/?GetLang=ar"><img alt="" src="assets/global/img/flags/om.png"> العربية</a>
+                        </li>
+                        <li class="activeX">
+                           <a href="/?GetLang=en"><img alt="" src="assets/global/img/flags/gb.png"> English</a>
+                        </li>
+                     </ul>
+                  </li-->
+				  
+				  	<li>
+                                          <a href="/?GetLang=en"> English</a>                  </li>
+				  
+               </ul>
+            </div>
+         </div>
+      </div>
+		 
+         <!-- Header start -->
+         <div class="head-border"></div>
+         <!--header class="top-head transparent semi light fullx header-1 fixed-head" style="z-index: 1000000;"-->
+
+ <header class="top-head header-1 semi light skew transparent fixed-head" style="z-index: 10000000;">
+            <div class="containerX">
+               <!-- Logo start -->
+               <div class="logo">
+                  <a href="home.moe"><img alt="" src="templates/moe/assets/images/logo.png" /></a>
+               </div>
+               <!-- Logo end -->
+               
+<div class="responsive-nav" style="margin-bottom: 0px;">
+<nav class="top-nav">
+   <ul>
+      <li class="selected"><a href="home.moe"><span><i class="fa fa-home shown"></i></span></a></li>						
+      <li><a href="#"><span> الوزارة </span> </a>
+	                        <ul>
+                              <li><a href="pages/162/show/504" title="الرؤية والرسالة"><i class="fa fa-eye"></i>الرؤية والرسالة</a></li>
+							  <li><a href="library/69"><i class="fa fa-legal"></i>اللوائح والقوانين </a></li>	
+                                <li><a href="InfoCenter"><span><i class="fa fa-lightbulb-o"></i> مركز المعلومات </span> </a></li>
+								<li><a href="hierarchical&h=1"><span><i class="fa fa-lightbulb-o"></i> الهيكل التنظيمي</span> </a></li>
+								<!--li><a href="https://home.moe.gov.om/pages/213/show/1058"><span><i class="fa fa-lightbulb-o"></i> منظومة الأداء الفردي والمؤسسي</span> </a></li-->
+                           </ul>
+      </li>
+	  	  
+	  <li class="mega-menu hidden-xs">
+         <a href="#"><span>تعليميات المحافظات </span></a>
+         <ul>
+            <li>
+               <div class="mega-content">
+                  <div class="row">
+                     <ul>
+                        <li class="col-md-6">
+                           <ul>
+                               <li><a href="region/muscat" title="مسقط"><i class="fa fa-cogs main-color shape"></i>مسقط</a></li>
+                              <li><a href="region/dhofar" title="محافظة ظفار"><i class="fa fa-cogs main-color shape"></i>ظفار</a></li>
+                           </ul>
+                           <ul>
+                                  <li><a href="region/musndam" title="مسندم"><i class="fa fa-cogs main-color shape"></i>مسندم</a></li>
+                              <li><a href="region/alburaimi" title="البريمي"><i class="fa fa-cogs main-color shape"></i>البريمي</a></li>
+                              <li><a href="region/dakhlia" title="محافظة الداخلية"><i class="fa fa-cogs main-color shape"></i>الداخلية</a></li>
+                              <li><a href="region/northbatina" title="شمال الباطنة "><i class="fa fa-cogs main-color shape"></i>شمال الباطنة </a></li>
+                           </ul>
+                        </li>
+                        <li class="col-md-6">
+                           <ul>
+                             <li><a href="region/southbatina" title="جنوب الباطنة "><i class="fa fa-cogs main-color shape"></i>جنوب الباطنة </a></li>
+                              <li><a href="region/southshq" title="محافظة جنوب الشرقية"><i class="fa fa-cogs main-color shape"></i>جنوب الشرقية </a></li>
+                               <li><a href="region/northsh" title="محافظة شمال الشرقية"><i class="fa fa-cogs main-color shape"></i>شمال الشرقية </a></li>
+							   <li><a href="region/dahira" title="محافظة الظاهرة التعليمية"><i class="fa fa-cogs main-color shape"></i>الظاهرة</a></li>
+                              <li><a href="region/alwesta" title="محافظة الوسطى "><i class="fa fa-cogs main-color shape"></i>الوسطى</a></li>
+                              <li><a href="region/rakhyout" title="إدارة التربية والتعليم برخيوت "><i class="fa fa-cogs main-color shape"></i>رخيوت</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+         </ul>
+      </li>
+	  
+	  <li><a href="https://home.moe.gov.om/module.php?m=pages-showpage&CatID=208&ID=1024"><span style="color: #f75151;"> التعليم المدمج</span> </a>
+	                        <ul>
+							
+                              <li><a href="https://home.moe.gov.om/pages/208/show/1016" title=" ">نبذة عن التعليم المدمج</a></li>
+                              <li><a href="library/94" title="">الأطر والمراجع</a></li>
+							  <li><a href="https://home.moe.gov.om/pages/208/show/1021" title="">منصة منظرة 1-4</a></li>
+							   <li><a href="https://home.moe.gov.om/pages/208/show/1022" title="">منصة جوجل كلاس روم 5-12</a></li>
+							    <li><a href="https://home.moe.gov.om/pages/208/show/1023" title="">البيئات الافتراضية</a></li>
+                              
+							  
+                                
+                           </ul>
+      </li>
+	  
+	  <li><a href="#"><span> البيانات المفتوحة </span> </a>
+	                        <ul>
+							
+                              <li><a href="https://opendata.moe.gov.om/moe" title="بيانات شاملة ">مكتبة البيانات المفتوحة</a></li>
+                              <li><a href="smap" title="الخريطة المدرسية">نظم المعلومات الجغرافية والخريطة المدرسية</a></li>
+							  <li><a href="http://opendata.moe.gov.om/contactus"> طلب بيانات مفتوحة  </a></li>
+                                
+                           </ul>
+      </li>
+	  
+	 
+      <li><a href="MediaCenter"><span> المركز الإعلامي </span> </a>
+	  	                        <ul>
+							
+							<li><a href="updates/1">إعلانات الوزارة  </a></li>
+							<li><a href="topics">مركز الأخبار</a></li>
+							<li><a href="updates/3">المستجدات</a></li>
+                            <li><a href="decisions" >القرارات الوزارية</a></li>
+                            <li><a href="pages/126" >وظائف شاغرة</a></li>
+                          <li><a href="module.php?m=monq" >المناقصات</a></li>
+                                
+                           </ul>
+      </li>
+	  
+	  
+	                       <li><a href="#"><span> المشاركة الإلكترونية </span> </a>
+	  	                        <ul>
+							
+							<!--li><a href="https://social.moe.gov.om/">الشبكة التربوية</a></li-->
+							<li><a href="https://home.moe.gov.om/pages/210/show/1028">سياسات المشاركة الإلكترونية</a></li>
+							<li><a href="https://home.moe.gov.om/pages/210/show/1025">المشاركة  مع الأفراد</a></li>
+							
+							<li><a href="https://home.moe.gov.om/pages/210/show/1047">المشاركة  مع المؤسسات</a></li>
+							<li><a href="https://home.moe.gov.om/pages/210/show/1027">قنوات التواصل الإلكترونية </a></li>
+							
+							
+							<!--<li><a href="http://social.moe.gov.om/">الشبكة التربوية</a></li> -->
+							
+                            <li><a href="contactus" >نرحب بمقترحك</a></li>
+                           </ul>
+      </li>
+						   
+						   
+	                     
+						 <li>
+         <a href="#"><span> خدماتنا </span></a>
+                           <ul>
+                              <li><a href="Students" title="للطالب"><i class="fa fa-cogs main-color shape"></i>للطالب</a></li>
+                              <li><a href="Parents" title="لولي الأمر"><i class="fa fa-cogs main-color shape"></i>لولي الأمر</a></li>
+                              <li><a href="Teachers" title="الهيئة الإدارية و التدريسية"><i class="fa fa-cogs main-color shape"></i>للهيئة الإدارية و التدريسية</a></li>
+                              <li><a href="Staff" title="موظفين"><i class="fa fa-cogs main-color shape"></i>للموظفين</a></li>
+                              <li><a href="Company" title="للشركات"><i class="fa fa-cogs main-color shape"></i>للشركات</a></li>
+							  
+							                  
+							
+                              <!--li><a href="Institutions" title="أرشيف إلكتروني"><i class="fa fa-cogs main-color shape"></i>أرشيف إلكتروني</a></li-->
+							  <!--li><a href="http://www.moe.gov.om/SMS/moe/epay/guest/registerstudentcontinueslearn.aspx" title="الدفع الإلكتروني"><i class="fa fa-cogs main-color shape"></i>الدفع الإلكتروني</a></li-->
+							  
+							                
+						    
+                           </ul>
+      </li>
+						 
+    
+      
+    
+	
+      
+      <li class="mega-menu hidden-xs">
+         <a href="#"><span>الأنظمة</span></a>
+         <ul>
+            <li>
+               <div class="mega-content">
+                  <div class="row">
+                     <ul>
+                        <li class="col-md-3">
+                           <div class="custom-content">
+                              <h3 class="uppercase menu-header">الشبكة التربوية بوزارة التربية التعليم</h3>
+                              <a href="http://social.moe.gov.om"><img alt="" src="templates/moe/assets/images/pages/social.jpg" class="border-radius-5px"></a>
+                              <p class="m-t-1"> الشبكة التربوية هي ملتقى تربوي تعليمي تفاعلي لتبادل المعارف والمعلومات والخبرات بين المعلمين والطلاب وأولياء الأمور والباحثين والمهتمين بالشأن التربوي .</p>
+                           </div>
+                        </li>
+                        <li class="col-md-6">
+                           <div class="menu-tabs">
+                              <!-- Nav tabs -->
+                              <ul class="nav nav-tabs" role="tablist">
+                                 <li role="presentation" class="active"><a class="uppercase" href="#corporate" role="tab" data-toggle="tab"><span class="uppercase menu-header"> برامج ومشاريع </span> </a></li>
+                                 <li role="presentation"><a class="uppercase" href="#business" role="tab" data-toggle="tab"> <span class="uppercase menu-header"> الأنظمة المحوسبة </span></a></li>
+                                 <li role="presentation"><a class="uppercase" href="#portaldalil" role="tab" data-toggle="tab"> <span class="uppercase menu-header"> دليل تعريفي </span></a></li>
+                              </ul>
+                              <div class="tab-content">
+							    <div class="tab-pane fade" id="portaldalil">
+                           <div class="custom-content">
+                              <a href="library/15/show/740"><img alt="" src="templates/moe/assets/images/pages/portaldalil.png" class="border-radius-5px"></a>
+                              <p class="m-t-1">دليل تعريفي لأنظمة وتطبيقات بوابة سلطنة عمان التعليمية</p>
+                           </div>
+                                 </div>
+                                 <div class="tab-pane fade in active" id="corporate">
+                                    <div class="row">
+                                       <div class="col-md-6">
+                                          <ul>
+                                             <li>
+                                                <span class="uppercase menu-header"><img alt="برامج ومناهج تربوية" class="menu-icon" src="templates/newmoe/assets/images/icons/pe-scroll-small-icon-edu.png" style="width: 48px;"/> برامج ومناهج تربوية </span>
+                                                <ul>
+                                                   <li><a href="http://afaq.moe.gov.om/" title="برنامج آفاق المعرفة"><i class="fa fa-cube main-color shape"></i>برنامج آفاق المعرفة</a></li>
+                                                   <li><a href="pages/120" title="الحقيبة المتلفزة"><i class="fa fa-cube main-color shape"></i>الحقيبة المتلفزة</a></li>
+                                                   <li><a href="pages/136/show/436" title="برنامج التنمية المعرفية"><i class="fa fa-cube main-color shape"></i>برنامج التنمية المعرفية</a></li>
+                                                   <li><a href="pages/151/show/522" title="برامج الدراسات الوطنية والدولية"><i class="fa fa-cube main-color shape"></i>الدراسات الوطنية والدولية</a></li>
+                                                   <li><a href="pages/192" title="تطبيقات الهواتف الذكية "><i class="fa fa-cube main-color shape"></i>تطبيقات الهواتف الذكية </a></li>
+                                                   <li><a href="updates/3/show/1057" title="برنامج ستيم "><i class="fa fa-cube main-color shape"></i>برنامج ستيم </a></li>
+                                                </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                       <div class="col-md-6">
+                                          <ul>
+                                             <li>
+                                                <span class="uppercase menu-header"><img alt="مشاريع ورؤى" class="menu-icon" src="templates/newmoe/assets/images/icons/6.png" style="width: 48px;"/> مشاريع ورؤى </span>
+                                                <ul>
+                                                   <li><a href="pages/19/show/543" title=" مشروع إرساء نظام إدارة الجودة "><i class="fa fa-cubes main-color shape"></i>  نظام إدارة الجودة </a></li>
+                                                   <!--li><a href="http://home.moe.gov.om/smap/" title="الخريطة المدرسية وأهميتها"><i class="fa fa-cubes main-color shape"></i>الخريطة المدرسية وأهميتها</a></li-->
+                                                   <li><a href="pages/143" title="التعليم المستمر"><i class="fa fa-cubes main-color shape"></i>التعليم المستمر</a></li>
+                                                   <li><a href="pages/19/show/60" title="مؤشرات تقنية المعلومات"><i class="fa fa-cubes main-color shape"></i>مؤشرات تقنية المعلومات</a></li>
+                                                   <li><a href="pages/19/show/56" title="الأرشفة الإلكترونية للكتب الإحصائية "><i class="fa fa-cubes main-color shape"></i>الأرشفة الإلكترونية للكتب الإحصائية </a></li>
+                                                   <li><a href="pages/205" title="البحوث الإجرائية "><i class="fa fa-cubes main-color shape"></i>البحوث الإجرائية </a></li>
+                                                </ul>
+                                             </li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div role="tabpanel" class="tab-pane fade" id="business">
+                                    <div class="row">
+                                       <div class="col-md-6">
+                                          <ul>
+                                             <li><a href="http://services.moe.gov.om/Complex111/portal.aspx" title="بدل مفقود للصفوف 1 إلى 11"><i class="fa fa-cogs main-color shape"></i>بدل مفقود للصفوف 1 إلى 11</a></li>
+                                             <li><a href="http://services.moe.gov.om:30/ATAD/CMPlogin.aspx" title="ظام المشتريات المباشرة"><i class="fa fa-cogs main-color shape"></i>نظام تزويد مصادر التعلم</a></li>
+                                             <li><a href="http://services.moe.gov.om/eticket/Login.aspx" title="نظام الترحيل"><i class="fa fa-cogs main-color shape"></i>نظام الحجوزات والسفر</a></li>
+                                             <li><a href="https://services.moe.gov.om/applicant.web/login" title="الأجر اليومي/ للمتعاقدين"><i class="fa fa-cogs main-color shape"></i>الأجر اليومي/ للمتعاقدين</a></li>
+                                             <li><a href="http://afaq.moe.gov.om/" title="نظام آفاق المعرفة"><i class="fa fa-cogs main-color shape"></i>نظام آفاق المعرفة</a></li>
+                                             <!--li><a href="https://hiring.moe.gov.om/designation/services/" title="نظام التأهيل التربوي"><i class="fa fa-cogs main-color shape"></i>نظام التأهيل التربوي</a></li-->
+											 <li><a href="https://apps.powerapps.com/play/e/f40ce001-116a-ef61-b235-7111695cef43/a/0986a7df-dd85-478b-8664-38ba6d07fe98?tenantId=04b4cb5d-cc41-401f-bd9d-4ca8a31a5c2f" title="تطبيقات إلكترونية"><i class="fa fa-cogs main-color shape"></i>تطبيقات إلكترونية</a></li>
+                                          </ul>
+                                       </div>
+                                       <div class="col-md-6">
+                                          <ul>
+                                             <li><a href="http://services.moe.gov.om:30/Atad/login.aspx" title="نظام عتاد"><i class="fa fa-cogs main-color shape"></i>نظام عتاد</a></li>
+                                             <li><a href="http://dms.moe.gov.om/crs" title="نظام المراسلات"><i class="fa fa-cogs main-color shape"></i>نظام المراسلات</a></li>
+                                             <li><a href="http://services.moe.gov.om/teacherhiringdaily/dailylogin.aspx" title="الأجر اليومي/ التربوي الزائر"><i class="fa fa-cogs main-color shape"></i>الأجر اليومي/ التربوي الزائر</a></li>
+                                             <!--li><a href="http://hiring.moe.gov.om/teacherhiring/login.aspx" title="نظام التعيينات"><i class="fa fa-cogs main-color shape"></i>نظام التعيينات</a></li-->
+											 <li><a href="https://hiring.moe.gov.om/designation/services/" title="نظام التعيينات"><i class="fa fa-cogs main-color shape"></i>نظام التعيينات</a></li>
+											 
+                                             <li><a href="https://services.moe.gov.om/adminapplication/phoneInfor/ExtentionSearch" title="دليل الهاتف"><i class="fa fa-cogs main-color shape"></i>دليل الهاتف</a></li>
+											 <li><a href="http://zawity.moe.gov.om/" title="مشروع زاويتي"><i class="fa fa-cogs main-color shape"></i>مشروع زاويتي</a></li>
+                                          </ul>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </li>
+                        <li class="col-md-3">
+                           <h3 class="uppercase menu-header"> المكتبات الإلكترونية</h3>
+                           <ul>
+                              <li><a href="topics"><i class="fa fa-minus"></i>مكتبة أخبار الوزارة</a></li>
+                              <li><a href="album"><i class="fa fa-minus"></i>مكتبة الصور</a></li>
+                              <li><a href="library"><i class="fa fa-minus"></i>مكتبة الإصدارات</a></li>
+                              <li><a href="mazaya"><i class="fa fa-minus"></i>مكتبة مزايا العاملين</a></li>
+                              <!--li><a href="media"><i class="fa fa-minus"></i>مكتبة الوسائط</a></li-->
+                              <li><a href="decisions"><i class="fa fa-minus"></i>مكتبة القرارات الوزارية</a></li>
+                              <li><a href="vote"><i class="fa fa-minus"></i>مكتبة إرشيف إستطلاع الرأي</a></li>
+                              <li><a href="events"><i class="fa fa-minus"></i>مكتبة الفعاليات والأحداث</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </li>
+         </ul>
+      </li>
+	  
+	  <li class="visible-xs">
+		 <a href="#"><span>المكتبات الإلكترونية</span></a>
+		   <ul>
+			  <li><a href="topics"><i class="fa fa-minus"></i>مكتبة أخبار الوزارة</a></li>
+			  <li><a href="album"><i class="fa fa-minus"></i>مكتبة الصور</a></li>
+			  <li><a href="library"><i class="fa fa-minus"></i>مكتبة الإصدارات</a></li>
+			  <li><a href="mazaya"><i class="fa fa-minus"></i>مكتبة مزايا العاملين</a></li>
+			  <!--li><a href="media"><i class="fa fa-minus"></i>مكتبة الوسائط</a></li-->
+			  <li><a href="decisions"><i class="fa fa-minus"></i>مكتبة القرارات الوزارية</a></li>
+			  <li><a href="vote"><i class="fa fa-minus"></i>مكتبة إرشيف إستطلاع الرأي</a></li>
+			  <li><a href="events"><i class="fa fa-minus"></i>مكتبة الفعاليات والأحداث</a></li>
+		   </ul>
+      </li>
+   </ul>
+</nav>
+<!-- top navigation menu end -->
+<div class="f-right">
+   <!-- top search start -->
+   <div class="top-search">
+      <a href="#" class="main-color"><span class="fa fa-search"></span></a>
+      <div class="search-box">
+         <form action="search&amp;Category=Topic" method="POST" name="search">
+            <input name="keyword" id="t2-search" class="txt-box" placeholder="اكتب كلمة البحث ..." type="text">
+            <!--button type="submit" class="main-color"></button-->
+         </form>
+      </div>
+   </div>
+   <!-- top search end -->
+</div>
+</div>                     	
+		<div>	
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img.sticky {
+  position: fixed;
+  position: fixed;
+  top: 500;
+ left:1150px;
+  padding-left:250px;
+  padding-top: 30px;
+  width: 400px;
+  height: 150px;
+}
+</style>
+		</div>
+		
+		
+         </header>
+         <!-- Header start -->
+		 
+		 
+         <div class="pageContent  magazine">
+            <!-- Content start -->
+			
+			
+			
+            <!-- Start FictionX SLIDER -->
+  				<div class="tp-banner-container">
+					<div class="tp-banner-full" >
+						<ul>
+						<!-- logo events-->
+						  <!-- Start Arabic SLIDER   -->
+						 
+						 <!--a href="http://osf.om" target="_blank" > 
+					
+							
+							<img class="sticky" src="	templates/moe/assets/images/osff.png" alt="Avatar" > tt.jpg
+							</a-->
+							 
+							 
+							 <li data-index="rs-2432" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="1500" data-saveperformance="off">
+								<img  alt="" src="templates/moe/assets/images/slider/dummy.png" data-lazyload="templates/moe/assets/images/sliders/others/tasahorA (2).png" >
+							</li>
+							
+
+							 
+							 <li data-index="rs-2485" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="1500" data-saveperformance="off">
+								<img  alt="" src="templates/moe/assets/images/slider/dummy.png" data-lazyload="templates/moe/assets/images/sliders/others/baa02.png" >
+							</li>
+							
+							<li data-index="rs-2432" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="1500" data-saveperformance="off">
+							<a href="https://events.mcsy.om/child-culture-award/" target="_blank"> 
+								<img  alt="" src="templates/moe/assets/images/slider/dummy.png" data-lazyload="templates/moe/assets/images/sliders/others/E1.PNG"> </a>      
+							</li>
+					
+							
+							
+							
+								
+							
+							
+							
+							<!--li data-index="rs-2432" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="1500" data-saveperformance="off">
+								<img  alt="" src="templates/moe/assets/images/slider/dummy.png" data-lazyload="templates/moe/assets/images/sliders/others/ml.png" >
+							</li-->
+							
+							</li-->
+					
+							
+							
+							
+							<li data-index="rs-2432" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="1500" data-saveperformance="off">
+								<img  alt="" src="templates/moe/assets/images/slider/dummy.png " data-lazyload="templates/moe/assets/images/sliders/others/visionnew.png" >
+							</li>
+							
+							<!--li data-index="rs-2432" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="1500" data-saveperformance="off">
+								<img  alt="" src="templates/moe/assets/images/slider/dummy.png " data-lazyload="templates/moe/assets/images/sliders/others/suportmm.jpg" >
+							</li-->
+							
+							
+			
+								
+							<!-- end layer-->
+							
+												
+					
+								  
+				  
+				  
+				  
+							
+						</ul>
+					</div>
+				</div>
+            <!-- END FictionX SLIDER -->
+			
+			
+            <!-- Start FictionX Alert -->				
+            <div class="container fx hidden-xs" data-animate="bounceIn" data-animation-delay="400">
+               <div class="gry-bgX">
+                  
+                      
+<div class="clearfix"></div>
+<div style="padding-top: 20px;padding-bottom: 20px;">
+<div class="vertical-slider" data-slides_count="1" data-scroll_amount="1" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0" data-slider-arrows="1" data-slider-auto="1" style="direction: rtl;">                          
+						<div class="col-md-12 update-warning-bg">
+                           <div class="break-news">
+                              <div class="col-md-2"><span class="update-warning-icon">إعلان</span></div>
+                              <div class="col-md-10">
+                                 <a href="updates/1/show/1335">
+                                    <h4 >طرح مزايدة تأجير الجمعيات المدرسية  لعدد (25) مدرسة بمحافظة الظاهرة</h4>
+                                 </a>
+                              </div>
+							 
+                           </div>
+						</div>							
+						<div class="col-md-12 update-warning-bg">
+                           <div class="break-news">
+                              <div class="col-md-2"><span class="update-warning-icon">إعلان</span></div>
+                              <div class="col-md-10">
+                                 <a href="updates/1/show/1334">
+                                    <h4 >إعلان توفر عدد من المنح الدراسية للطلبة ذوي الإعاقة الفكرية للالتحاق بمدارس التربية الخاصة بدولة الكويت الشقيقة للعام الدراسي 2023/2024م</h4>
+                                 </a>
+                              </div>
+							 
+                           </div>
+						</div>							
+						<div class="col-md-12 update-warning-bg">
+                           <div class="break-news">
+                              <div class="col-md-2"><span class="update-warning-icon">إعلان</span></div>
+                              <div class="col-md-10">
+                                 <a href="updates/1/show/1333">
+                                    <h4 >إعلان عن توفر عدد من  الشواغر  في تخصصي اللغة الإنجليزية والتربية الخاصة </h4>
+                                 </a>
+                              </div>
+							 
+                           </div>
+						</div>							
+</div></div>
+
+					
+					
+					                      
+                  </div>
+              
+            </div>
+            <!-- END FictionX Alert ;-->
+			
+			
+            <!-- Start FictionX News -->			
+            ﻿<div class="no-padding m-b-3">
+		        	<div class="container">
+			        	<div class="row fx" data-animate="fadeInUp" data-animation-delay="500">
+
+
+
+	<div class="col-md-5" >
+		<div class="post-item gry-bg p-a-2 border-radius-5px">
+				<div class="entry-image">
+					<a href="topics/1/show/9724">
+						<img src="images/topics/pictures/topic426628.jpeg" alt="التربية والتعليم: تنفذ البرنامج" التخطيط الاستراتيجي وإعداد الخطط التشغيلية"">
+					</a>
+				</div>
+				<article class="post-content">
+					<div class="post-info-container">
+						<div class="post-info">
+							<h4><a class="main-color" href="topics/1/show/9724">التربية والتعليم: تنفذ البرنامج" التخطيط الاستراتيجي وإعداد الخطط التشغيلية"</a></h4>
+							<ul class="post-meta">
+								<li class="meta-date"><i class="fa fa-clock-o"></i>18 يونيو 2023 </li>
+							</ul>
+						</div>
+					</div>
+					<p style="line-height: 2.2;">
+						نفذت وزارة التربية والتعليم ممثلة بالمديرية العامة للشؤون الإدارية (دائرة التأهيل والتدريب) صباح اليوم (الأحد) البرنامج التدريبي حول&quot; التخطيط الاستراتيجي وإعداد الخطط التشغيلية&quot;، والذي استهدف (31) مشاركًا من المديرين المساعدين بدوائر ديوان عام الوزارة؛ وذلك ضمن برامج الإنماء المهني التي تنفذها المديرية ؛ والذي يستمر مدة (3) أيام، بفندق ليفاتيو.
+
+محاور البرنامج التدريبي
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; يتناول البرنامج التدريبي خلال أيام ... 
+						<a class="main-color" href="topics/1/show/9724">اقرأ المزيد </a>
+					</p>
+				</article>
+		</div>
+	</div>
+<div class="col-md-7" >										
+ <div class="col-md-6" style="min-height:280px">
+ 					                    <div class="post-item">
+					                        <div class="entry-image border-radius-5px">
+											<div class="fix-Home_news-image">
+				                            	<a href="topics/1/show/9720">
+												
+												<img class="border-radius-5px fix-Home_news-image-img" src="images/topics/pictures/topic202619.jpg" alt="الطالب الربيع الظفري يتوج بالميدالية البرونزية في أولمبياد أبو الريحان البيروني الدولي للكيمياء بأوزباكستان ">
+												</a></div>
+					                        </div>
+					                        <article class="entry-content">
+						                        <div class="post-info">
+						                            <h6 class="fix-Home-news-supject"><a  href="topics/1/show/9720">الطالب الربيع الظفري يتوج بالميدالية البرونزية في أولمبياد أبو الريحان البيروني الدولي للكيمياء بأوزباكستان </a></h6>
+						                            <ul class="post-meta">
+						                                <li class="meta-date"><i class="fa fa-clock-o"></i>18 يونيو 2023 </li>
+						                            </ul>
+					                            </div>
+					                        </article>
+					                    </div>
+					                    </div>
+					                    
+ 
+ 
+ <div class="col-md-6" style="min-height:280px">
+ 					                    <div class="post-item">
+					                        <div class="entry-image border-radius-5px">
+											<div class="fix-Home_news-image">
+				                            	<a href="topics/1/show/9712">
+												
+												<img class="border-radius-5px fix-Home_news-image-img" src="images/topics/pictures/topic312514.jpeg" alt="التربية والتعليم تُنظم لقاءً مع نُظراء مكتب إدارة منظومة الأداء الفردي ">
+												</a></div>
+					                        </div>
+					                        <article class="entry-content">
+						                        <div class="post-info">
+						                            <h6 class="fix-Home-news-supject"><a  href="topics/1/show/9712">التربية والتعليم تُنظم لقاءً مع نُظراء مكتب إدارة منظومة الأداء الفردي </a></h6>
+						                            <ul class="post-meta">
+						                                <li class="meta-date"><i class="fa fa-clock-o"></i>14 يونيو 2023 </li>
+						                            </ul>
+					                            </div>
+					                        </article>
+					                    </div>
+					                    </div>
+					                    
+ 
+ 
+ <div class="col-md-6" style="min-height:280px">
+ 					                    <div class="post-item">
+					                        <div class="entry-image border-radius-5px">
+											<div class="fix-Home_news-image">
+				                            	<a href="topics/1/show/9709">
+												
+												<img class="border-radius-5px fix-Home_news-image-img" src="images/topics/pictures/topic738979.jpg" alt="بدء التدريب اللامركزي على برنامج (الذكاء الاصطناعي في التعليم) ">
+												</a></div>
+					                        </div>
+					                        <article class="entry-content">
+						                        <div class="post-info">
+						                            <h6 class="fix-Home-news-supject"><a  href="topics/1/show/9709">بدء التدريب اللامركزي على برنامج (الذكاء الاصطناعي في التعليم) </a></h6>
+						                            <ul class="post-meta">
+						                                <li class="meta-date"><i class="fa fa-clock-o"></i>14 يونيو 2023 </li>
+						                            </ul>
+					                            </div>
+					                        </article>
+					                    </div>
+					                    </div>
+					                    
+ 
+ 
+ <div class="col-md-6" style="min-height:280px">
+ 					                    <div class="post-item">
+					                        <div class="entry-image border-radius-5px">
+											<div class="fix-Home_news-image">
+				                            	<a href="topics/1/show/9702">
+												
+												<img class="border-radius-5px fix-Home_news-image-img" src="images/topics/pictures/topic158900.jpg" alt="التربية والتعليم تنفذ البرنامجين التدريبين: "التحول الرقمي" و " الاستشراف الاستراتيجي للمستقبل" ">
+												</a></div>
+					                        </div>
+					                        <article class="entry-content">
+						                        <div class="post-info">
+						                            <h6 class="fix-Home-news-supject"><a  href="topics/1/show/9702">التربية والتعليم تنفذ البرنامجين التدريبين: "التحول الرقمي" و " الاستشراف الاستراتيجي للمستقبل" </a></h6>
+						                            <ul class="post-meta">
+						                                <li class="meta-date"><i class="fa fa-clock-o"></i>14 يونيو 2023 </li>
+						                            </ul>
+					                            </div>
+					                        </article>
+					                    </div>
+					                    </div>
+					                    
+ 
+ 
+</div></div></div></div>
+
+			        			
+
+		                                <!-- End FictionX News -->	
+			
+			
+            <!-- Start FictionX Services -->				
+			<div class="container fx" data-animate="pulse" data-animation-delay="300" style="padding-top: 50px;">
+ <h3 class="uppercase main-color">خدماتنا</h3>
+<hr class="divider dev-style2">
+</div>
+
+<div class="row fx" data-animate="pulse" data-animation-delay="400">
+               <div class="container">
+                  <div class="col-md-2 FixRtL-float-div">
+                     <div class="icon-box-2">
+                        <div class="icon-desc main-bg" style="padding: unset;border-radius: 5px;">
+                           <p><a href="Students"><img  alt="" src="templates/moe/assets/images/services-moe/services-students.png" title="" style="border-radius: 5px;"> </a></p>
+                        </div>
+                        <div class="bottom-envelop">
+                           <div class="main-color heavyx"><span  style="position: absolute;bottom: 25px;z-index: 99;left: 0;width: 100%;font-size: 18px;"><a href="Students">للطالب</a></span></div>
+                           <div class="box-number" style="border-left-width: 81px; border-right-width: 74px;"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-2 FixRtL-float-div">
+                     <div class="icon-box-2">
+                        <div class="icon-desc main-bg" style="padding: unset;border-radius: 5px;">
+                           <p><a href="Parents"><img  alt="" src="templates/moe/assets/images/services-moe/services-parent.png" title="" style="border-radius: 5px;"> </a></p>
+                        </div>
+                        <div class="bottom-envelop">
+                           <div class="main-color heavyx"><span  style="position: absolute;bottom: 25px;z-index: 99;left: 0;width: 100%;font-size: 18px;"><a href="Parents"> لولي الأمر </a></span></div>
+                           <div class="box-number" style="border-left-width: 81px; border-right-width: 74px;"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-2 FixRtL-float-div">
+                     <div class="icon-box-2">
+                        <div class="icon-desc main-bg" style="padding: unset;border-radius: 5px;">
+                           <p><a href="Teachers"><img  alt="" src="templates/moe/assets/images/services-moe/services-teacher.png" title="" style="border-radius: 5px;"> </a></p>
+                        </div>
+                        <div class="bottom-envelop">
+                           <div class="main-color heavyx"><span  style="position: absolute;bottom: 25px;z-index: 99;left: 0;width: 100%;font-size: 18px;"><a href="Teachers">للهيئة الإدارية والتدريسية </a></span></div>
+                           <div class="box-number" style="border-left-width: 81px; border-right-width: 74px;"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-2 FixRtL-float-div">
+                     <div class="icon-box-2">
+                        <div class="icon-desc main-bg" style="padding: unset;border-radius: 5px;">
+                           <p><a href="Staff"><img  alt="" src="templates/moe/assets/images/services-moe/services-staff.png" title="" style="border-radius: 5px;"> </a></p>
+                        </div>
+                        <div class="bottom-envelop">
+                           <div class="main-color heavyx"><span  style="position: absolute;bottom: 25px;z-index: 99;left: 0;width: 100%;font-size: 18px;"><a href="Staff"> للموظفين </a></span></div>
+                           <div class="box-number" style="border-left-width: 81px; border-right-width: 74px;"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-2 FixRtL-float-div">
+                     <div class="icon-box-2">
+                        <div class="icon-desc main-bg" style="padding: unset;border-radius: 5px;">
+                           <p><a href="Company"><img  alt="" src="templates/moe/assets/images/services-moe/services-company.png" title="" style="border-radius: 5px;"> </a></p>
+                        </div>
+                        <div class="bottom-envelop">
+                           <div class="main-color heavyx"><span  style="position: absolute;bottom: 25px;z-index: 99;left: 0;width: 100%;font-size: 18px;"><a href="Company"> للشركات </a></span></div>
+                           <div class="box-number" style="border-left-width: 81px; border-right-width: 74px;"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-2 FixRtL-float-div">
+                     <div class="icon-box-2">
+                        <div class="icon-desc main-bg" style="padding: unset;border-radius: 5px;">
+                           <p><a href="Institutions"><img  alt="" src="templates/moe/assets/images/services-moe/services-institutions.png" title="" style="border-radius: 5px;"> </a></p>
+                        </div>
+                        <div class="bottom-envelop">
+                           <div class="main-color heavyx"><span  style="position: absolute;bottom: 25px;z-index: 99;left: 0;width: 100%;font-size: 18px;"><a href="Institutions"> للمؤسسات العامة </a></span></div>
+                           <div class="box-number" style="border-left-width: 81px; border-right-width: 74px;"></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>			<div class="container fx" data-animate="fadeInUp" data-animation-delay="400" style="padding-top: 50px;">
+ <h3 class="uppercase main-color">  انظمة مختارة </h3>
+<hr class="divider dev-style2">
+</div>
+
+<div class="container fx" data-animate="fadeInUp" data-animation-delay="500">
+
+
+
+
+<div class="row  magazine-thumbs">	
+
+<div class="row">
+
+
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="updates/1">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/ep-bigicon-ela3n.png" alt="إعلانات">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="updates/1">إعلانات</a></h5>
+<p>إعلانات الوزارة</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="templates/moe/assets/images/icons/ep-bigicon-disiton.png">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/ep-bigicon-disiton.png" alt="القرارات">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="decisions">القرارات</a></h5>
+<p>القرارات الوزارية</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="mazaya">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/ep-bigicon-sttuf.png" alt="مزايا العاملين بالوزارة">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="mazaya"> مزايا العاملين</a></h5>
+<p>مزايا العاملين بالوزارة</p>
+			</div>
+		</article>
+	</div>
+</div>
+   
+
+
+
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="module.php?m=monq">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/ep-bigicon--.png" alt="المناقصات">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="module.php?m=monq">المناقصات</a></h5>
+					<p>مناقصات الوزارة</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+		                    
+
+</div>
+
+<div class="row">
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="http://ict.moe.gov.om/">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/et.png" alt="تقنيات">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="http://ict.moe.gov.om/">تقنيات</a></h5>
+<p>تقنيات التعليم</p>
+			</div>
+		</article>
+	</div>
+</div>
+   
+
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="https://cseh.moe.gov.om/">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/cus_service.png" alt="قاعة خدمة المراجعين">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="https://cseh.moe.gov.om/"> قاعة خدمة المراجعين</a></h5>
+<p>قاعة خدمة المراجعين</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="http://zawity.moe.gov.om/">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/ep-bigicon-zawity.png" alt="زاويتي">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="http://zawity.moe.gov.om/">زاويتي</a></h5>
+<p>مشروع زاويتي</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="https://home.moe.gov.om/web/dodmond/">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/mwatnaa.png" alt="المواطنة">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="https://home.moe.gov.om/web/dodmond/">المواطنة</a></h5>
+<p> المواطنة</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+
+			                    
+
+</div>
+
+<div class="row">			                    
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+		<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="library">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/ep-bigicon-books.png" alt="الإصدارات">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="library">الإصدارات</a></h5>
+<p> مكتبة الإصدارات</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+   
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+		<div class="entry-image home-icons" style="اللجنة الوطنية العمانية للتربية والثقافة والعلوم">
+			<a href="https://onc.om/">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/onclogonew.png" alt="اللجنة الوطنية العمانية للتربية والثقافة والعلوم">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="https://onc.om/">اللجنة الوطنية العمانية</a></h5>
+<p>اللجنة الوطنية العمانية للتربية والثقافة والعلوم</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+		<div class="entry-image home-icons" style="اللجنة الوطنية العمانية للتربية والثقافة والعلوم">
+			<a href="https://lib.moe.gov.om/"">
+<img class="border-radius-5px" src="https://home.moe.gov.om/file/elab3.png">			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+<a href="https://lib.moe.gov.om/"  title="المكتبة الرقمية"><p><p>المكتبة الرقمية</p></p>
+			</div>
+		</article>
+	</div>
+</div>
+
+
+
+
+
+<!--div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+		<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="https://home.moe.gov.om/web/tasneef/">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/logo1.png" alt="مكتب تصنيف المدارس الخاصة">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="مكتب تصنيف المدارس الخاصة">تصنيف المدارس</a></h5>
+<p> مكتب تصنيف المدارس الخاصة</p>
+			</div>
+		</article>
+	</div>
+</div-->
+
+
+<!--div class="row">
+
+<div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="https://cseh.moe.gov.om/">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/cus_service.png" alt="قاعة خدمة المراجعين">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="https://cseh.moe.gov.om/"> قاعة خدمة المراجعين</a></h5>
+<p>قاعة خدمة المراجعين</p>
+			</div>
+		</article>
+	</div>
+</div>
+
+</div-->
+
+
+<!--div class="col-md-4">
+<a href="https://home.moe.gov.om/web/tasneef/"  title="مكتب تصنيف المدارس الخاصة">
+<img  style="height: 64px;" class="border-radius-5px fx" data-animate=""  data-animation-delay="300" src="templates/moe/assets/images/icons/logo1.png" alt="">
+</a>
+<span>مكتب تصنيف المدارس الخاصة</span>
+										</div-->
+
+<!--div class="col-md-3 FixRtL-icon-div">			                    
+<div class="post-item padding-bottom-15 FixRtL-icon" >
+		<div class="entry-image home-icons" style="margin-right: 10px !important;">
+			<a href="beah">
+				<img class="border-radius-5px" src="templates/moe/assets/images/icons/beah.png" alt="بيئة">
+			</a>
+		</div>
+		<article class="entry-content">
+			<div class="post-info">
+				<h5><a href="beah">بيئة</a></h5>
+<p>بيئة</p>
+			</div>
+		</article>
+	</div>
+</div-->
+
+
+
+				</div>
+				</div>
+				</div>			
+			
+
+<div class="sm-padding">
+<div class="wall-bg">
+   <div class="containerx">
+     <div class="row" style="padding-top: 50px;">
+         <div class="col-md-7 f-right">
+            <div class="heading style3">
+               <h3 class="uppercase"></h3>
+			   <h3>الإنجازات والجوائز </h3>
+			   
+            </div>
+			
+			
+			<!--div class="heading side-head head-7 main-border "><h4 class="" style="text-transform:uppercase"><span class="main-bg" style="background-image: linear-gradient(to , #219b90, white);padding-: 100px;">المكتبة الإلكترونية</span></h4></div>
+
+<div class="row">
+
+
+		<article class="fx col-md-4 feature-img animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
+		<figure style="background:#e6e6e6 url(templates/omaninfo/images/library/H.M.jpg) center no-repeat;    background-size: cover;height: 120px" class="shape new-angle border5px">
+			
+			<a href="album" class="top-angle"><i class="fa fa-camera" style="font-size: 25px;"></i></a>
+		</figure>
+		<div class="feature-details no-hover">
+			<h4 class="bold feature-head main-color" style="text-align: center;"><a href="album" class="top-angle">مكتبة الصور</a></h4>
+			
+		</div>
+	</article>
+	
+		<article class="fx col-md-4 feature-img animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
+		<figure style="background:#e6e6e6 url(templates/omaninfo/images/library/books.jpg) center no-repeat;    background-size: cover;height: 120px" class="shape new-angle border5px">
+			
+			<a href="library" class="top-angle"><i class="fa fa-book" style="font-size: 25px;"></i></a>
+		</figure>
+		<div class="feature-details no-hover">
+			<h4 class="bold feature-head main-color" style="text-align: center;"><a href="library" class="top-angle">مكتبة الإصدارات </a></h4>
+			
+		</div>
+	</article>
+			<article class="fx col-md-4 feature-img animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
+		<figure style="background:#e6e6e6 url(templates/omaninfo/images/library/media.jpg) center no-repeat;    background-size: cover;height: 120px" class="shape new-angle border5px">
+			
+			<a href="media" class="top-angle"><i class="fa fa-video-camera" style="font-size: 25px;"></i></a>
+		</figure>
+		<div class="feature-details no-hover">
+			<h4 class="bold feature-head main-color" style="text-align: center;"><a href="media" class="top-angle">مكتبة الوسائط</a></h4>
+			
+		</div>
+	</article>
+</div-->
+			
+			
+			
+			
+			
+			
+			
+<!--table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 33.3333%; background-color: rgb(44, 130, 201);">
+                <div style="text-align: center;"><span style="color: rgb(239, 239, 239);"><strong><span style="font-size: 20px;">المناسبة</span></strong></span></div>
+            </td>
+            <td style="width: 33.3333%; background-color: rgb(84, 172, 210);">
+                <div style="text-align: center;"><span style="color: rgb(239, 239, 239);"><strong><span style="font-size: 20px;">تاريخ الهجري</span></strong></span></div>
+            </td>
+            <td style="width: 33.3333%; background-color: rgb(44, 130, 201);">
+                <div style="text-align: center;"><strong><span style="color: rgb(239, 239, 239); font-size: 20px;">مصادفة الميلادي</span></strong></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;"><span style='font-size: 19px; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;'>عيد الفطر</span></div>
+            </td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;"><span style="font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;"><strong>1 شوال</strong></span></div>
+            </td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;"><span style="font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;"><strong>2022-5-2م</strong></span></div>
+            </td>
+        </tr>
+    </tbody>
+</table-->
+			
+		
+			
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="post-item padding-bottom-15" 
+				  
+				  
+				  
+				  style="display: inline-flex;   ">
+                     <div class="home-apps-continer"><!--a href="" target="_blank"--><img class="home-apps-img" src="https://home.moe.gov.om/file/E-P/21-1.png" alt="ولي الأمر"></a></div>
+                     <article class="entry-content">
+                        <div class="post-info">
+                           <h4><!--a href="" target="_blank"--></a></h4>
+                           <!--p>قريبا..</p-->
+						   <h5>جائزة السلطان قابوس لفئة أفضل محتوى إلكتروني 2014</h5>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="post-item padding-bottom-15" style="display: inline-flex;">
+                     <div class="home-apps-continer"><a href="#" target="_blank"><img class="home-apps-img" src="https://home.moe.gov.om/file/E-P/19-1.png" alt="الإجازات"></a></div>
+                     <article class="entry-content">
+                        <div class="post-info">
+                           <h4><a href="#" target="_blank"></a></h4>
+                           <!--p> قريبا..</p-->
+                            <h5>جائزة السلطان قابوس لفئة أفضل محتوى إلكتروني 2014</h5>
+						   
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+			
+			<div class="row">
+               <div class="col-md-6">
+                  <div class="post-item padding-bottom-15" style="display: inline-flex;">
+                     <div class="home-apps-continer"><a href="#" target="_blank"><img class="home-apps-img" src="https://home.moe.gov.om/file/E-P/a.png" alt="ولي الأمر"></a></div>
+                     <article class="entry-content">
+                        <div class="post-info">
+                           <h4><a href="#" target="_blank"></a></h4>
+                           <!--p>قريبا..</p-->
+						   <h5>معرض مؤتمر الحكومة الإلكترونية الثاني (الكويت 2011
+</h5>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="post-item padding-bottom-15" style="display: inline-flex;">
+                     <div class="home-apps-continer"><a href="#" target="_blank"><img class="home-apps-img" src="https://home.moe.gov.om/file/E-P/20-1.png" alt="الإجازات"></a></div>
+                     <article class="entry-content">
+                        <div class="post-info">
+                           <h4><a href="#" target="_blank"></a></h4>
+                           <!--p> قريبا..</p-->
+                            <h5>جائزة أفضل موقع عربي تربوي في الشبكة الاجتماعية الفيسبوك2012
+</h5>
+						   
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+			
+			
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="post-item padding-bottom-15" style="display: inline-flex;">
+				
+                     <div class="home-apps-continer"><a href="#" target="_blank"><img class="home-apps-img" src="https://home.moe.gov.om/file/E-P/15-1.png" alt="مدرستي‎"></a></div>
+                     <article class="entry-content">
+                        <div class="post-info">
+                           <h4><a href="#" target="_blank"></a></h4>
+                           <!--p></p-->
+						    <h5>جائزة أفضل بوابة إلكترونية في فئة القطاعات التنموية في مسابقة دول مجلس التعاون الخليج العربي لعام 2011
+</h5>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="post-item padding-bottom-15" style="display: inline-flex;">
+				  
+                     <div class="home-apps-continer"><a href="#" target="_blank"><img class="home-apps-img" src="https://home.moe.gov.om/file/E-P/3-1.png" alt="المراسلات"></a></div>
+                     <article class="entry-content">
+                        <div class="post-info">
+                           <h4><a href="#" target="_blank"></a></h4>
+                           <!--p></p-->
+						   						    <h5>المركز الثاني بجائزة أفضل موقع تعليمي في سلطنة عمان عام 2011
+</h5>
+
+                        </div>
+						
+						
+					
+						    <div class="col-md-6">
+							
+<a class="btn btn-round main-bg" href="https://home.moe.gov.om/pages/3/show/541"> المزيد من الإنجازات والجوائز</a>
+</div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </div>
+		 
+		 
+		 
+         <div class="col-md-5"><img alt="" src="templates/moe/assets/images/sqw.png" class="fx animated swing" data-animate="swing" data-animation-delay="200" style="animation-delay: 200ms;"></div>
+      </div>
+          </div>
+             </div>
+           </div>
+
+
+
+
+			<!--div class="container fx" data-animate="fadeInLeft" data-animation-delay="300" style="padding-top: 50px;">
+ <h3 class="uppercase main-color"><i class="fa fa-cogs red-color"></i>الداعمون</h3>
+<hr class="divider dev-style2">
+</div-->			
+										
+			<div class="container fx" data-animate="fadeInLeft" data-animation-delay="400">
+						<div class="clients horizontal-slider margin-top-10 directionltr" data-slides_count="6" data-scroll_amount="2" data-slider-speed="300" data-slider-infinite="1" data-slider-dots="0" data-slider-arrows="1" data-slider-auto="1">
+							
+							<div class="clientsdiv">
+								<a href="http://www.pdo.co.om/Pages/Home.aspx"> <img alt="" src="templates/moe/assets/images/clients/2.png"> </a>
+							</div>
+							<div class="clientsdiv">
+								<a href="https://www.ooredoo.om/arabic/tabid/2433/Default.aspx"> <img alt="" src="templates/moe/assets/images/clients/CLIENT1.jpg"> </a>
+							</div>
+							<div class="clientsdiv">
+								<a href="https://www.nbo.om/ar/Pages/Personal-Banking/Home.aspx"> <img alt="" src="templates/moe/assets/images/clients/CLIENT2.png"> </a>
+							</div>
+						
+							<div class="clientsdiv">
+								<a href="https://www.omifco.com/"> <img alt="" src="templates/moe/assets/images/clients/CLIENT3.jpg"> </a>
+							</div>
+							<!--div class="clientsdiv">
+								<a href="http://www.dapeco.com.om/"> <img alt="" src="templates/moe/assets/images/clients/1.png"> </a>
+							</div-->
+							<div class="clientsdiv">
+								<a href="http://www.omantel.om/ar/default.aspx"> <img alt="" src="templates/moe/assets/images/clients/6.png"> </a>
+							</div>	
+                            <!--div class="clientsdiv">
+								<a href="http://www.bankmuscat.com/ar-sa/pages/default.aspx"> <img alt="" src="templates/moe/assets/images/clients/10.1.png"> </a>
+							</div-->
+				</div>
+            <!-- Content End -->		
+         </div>		
+            <!-- End FictionX Services -->	
+
+
+
+
+
+				
+         <!-- Footer start -->
+         <footer id="footWrapper" class="fixed-footerX light">
+            <!-- footer widgets start -->
+            <div class="footer-middle" style="color: #fff;background: #2d2d2d  url('/templates/moe/assets/images/patterns/letters-bg.png') repeat-y left bottom;">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-3 first hidden-xs">
+						<h3><span class="main-color"> وصلات تهمك </span></h3>
+<ul class="menu-widget">
+<!--li><i class="fa fa-chevron-circle-left main-color"></i> <a href="http://scptt.moe.gov.om/"> المعهد التخصصي للتدريب المهني للمعلمين</a></li-->
+<li><i class="fa fa-chevron-circle-left main-color"></i> <a href="http://www.mohe.gov.om/">وزارة التعليم العالي والبحث العلمي والابتكار</a></li>
+<li><i class="fa fa-chevron-circle-left main-color"></i> <a href="http://www.heac.gov.om/"> مركز القبول الموحد</a></li>
+<!--li><i class="fa fa-chevron-circle-left main-color"></i> <a href="https://home.trc.gov.om/arabic/tabid/288/language/en-US/Default.aspx"> مجلس البحث العلمي</a></li-->
+<!--li><i class="fa fa-chevron-circle-left main-color"></i> <a href="http://www.ita.gov.om/"> هيئة تقنية المعلومات</a></li-->
+<!--li><i class="fa fa-chevron-circle-left main-color"></i> <a href="https://www.squ.edu.om/squ-ar"> جامعة السلطان قابوس</a></li-->
+<li><i class="fa fa-chevron-circle-left main-color"></i> <a href="http://www.oman.om/"> عماننا</a></li>
+<!--li><i class="fa fa-chevron-circle-left main-color"></i> <a href="http://www.educouncil.gov.om//"> مجلس التعليم</a></li-->
+<li><i class="fa fa-chevron-circle-left main-color"></i> <a href="http://www.civilpension.gov.om"> صندوق تقاعد موظفي الخدمة المدنية</a></li>
+</ul>
+
+					  
+                     </div>
+                     <div class="col-md-3 hidden-xs">
+                         <h3><span class="main-color"> آخر الأخبار </span></h3><div class="recent-posts-footer"><ul><li>
+<div class="post-img border-radius-5px">
+		<a class="zoom border-radius-5px" style="margin: -1px"  href='images/topics/pictures/topic426628.jpeg'><img src="images/topics/thumbnil/topic426628.jpeg" alt=" التربية والتعليم: تنفذ البرنامج" التخطيط الاستراتيجي وإعداد الخطط التشغيلية"" ></a>
+		</div>
+		<div class="widget-post-info">
+			<h4>
+				<a href="topics/1/show/9724">
+					التربية والتعليم: تنفذ البرنامج" التخطيط الاستراتيجي وإعداد الخطط التشغيلية"
+				</a>
+			</h4>
+			<div class="meta">
+				<span><i class="fa fa-clock-o"></i>18 يونيو 2023</span>
+			</div>
+		</div>
+	</li>	
+	<li>
+<div class="post-img border-radius-5px">
+		<a class="zoom border-radius-5px" style="margin: -1px"  href='images/topics/pictures/topic202619.jpg'><img src="images/topics/thumbnil/topic202619.jpg" alt=" الطالب الربيع الظفري يتوج بالميدالية البرونزية في أولمبياد أبو الريحان البيروني الدولي للكيمياء بأوزباكستان " ></a>
+		</div>
+		<div class="widget-post-info">
+			<h4>
+				<a href="topics/1/show/9720">
+					الطالب الربيع الظفري يتوج بالميدالية البرونزية في أولمبياد أبو الريحان البيروني الدولي للكيمياء بأوزباكستان 
+				</a>
+			</h4>
+			<div class="meta">
+				<span><i class="fa fa-clock-o"></i>18 يونيو 2023</span>
+			</div>
+		</div>
+	</li>	
+	<li>
+<div class="post-img border-radius-5px">
+		<a class="zoom border-radius-5px" style="margin: -1px"  href='images/topics/pictures/topic312514.jpeg'><img src="images/topics/thumbnil/topic312514.jpeg" alt=" التربية والتعليم تُنظم لقاءً مع نُظراء مكتب إدارة منظومة الأداء الفردي " ></a>
+		</div>
+		<div class="widget-post-info">
+			<h4>
+				<a href="topics/1/show/9712">
+					التربية والتعليم تُنظم لقاءً مع نُظراء مكتب إدارة منظومة الأداء الفردي 
+				</a>
+			</h4>
+			<div class="meta">
+				<span><i class="fa fa-clock-o"></i>14 يونيو 2023</span>
+			</div>
+		</div>
+	</li>	
+	</ul>	</div>
+
+											
+				                     </div>
+                     <div class="col-md-3 hidden-xs">
+                         <h3 class="main-color"><span class="main-color"> قوانين وأنظمة مختارة </span>  </h3><div class="recent-posts-footer"><ul>
+<li>
+	<div class="post-img"><a class="zoom"  href='images/library/pictures/book466642.jpg'><img src="images/library/thumbnil/book466642.jpg" alt="" ></a></div>
+	<h5><a href="library/69/show/725">اللوائح والقوانين - قانون حماية المال العام وتجنب تضارب المصالح </a></h5>
+	<!--span class="meta"><i class="fa fa-clock-o"></i>13 يونيو 2019</span-->
+</li>
+
+<li>
+	<div class="post-img"><a class="zoom"  href='images/library/pictures/book538021.jpg'><img src="images/library/thumbnil/book538021.jpg" alt="" ></a></div>
+	<h5><a href="library/69/show/717">اللوائح والقوانين - ضوابط إنشاء واستضافة مواقع وبوابات الوحدة الحكومية على شبكة المعلومات </a></h5>
+	<!--span class="meta"><i class="fa fa-clock-o"></i>13 يونيو 2019</span-->
+</li>
+
+<li>
+	<div class="post-img"><a class="zoom"  href='images/library/pictures/book562583.jpg'><img src="images/library/thumbnil/book562583.jpg" alt="" ></a></div>
+	<h5><a href="library/69/show/713">اللوائح والقوانين - (6-2016) تعديلات على اللائحة التنفيذية لقانون الخدمة المدنية </a></h5>
+	<!--span class="meta"><i class="fa fa-clock-o"></i>13 يونيو 2019</span-->
+</li>
+</ul></div>
+
+
+                     </div>
+                     <div class="col-md-3 last contact-widget">
+						<h3><span  class="main-color"> اتصل بنا </span></h3>
+<ul class="details FictionXi">
+   <li><a href="module.php?m=contactus"><i class="fa fa-phone icon-bgx gry-bgx sm-icon border3px"></i><span>مركز الاتصال  <br> 24255552 968</span></a></li>
+   <li><a href="module.php?m=contactus"><i class="fa fa-envelope  icon-bgx gry-bgx sm-icon border3px"></i><span style="color: #09EC08;"> للاستفسارات<br>moe@moe.om</span></a></li>
+     <!--li><a href="module.php?m=contactus"><i class="fa fa-envelope  icon-bgx gry-bgx sm-icon border3px"></i><span style="color: #f75151;">للتواصل المؤسسي<br>Documents@moe.om </span></a></li-->
+   <li><a href="module.php?m=contactus"><i class="fa fa-map-marker  icon-bgx gry-bgx sm-icon border3px"></i><span> السيب - شارع المعارض مقابل المطار </span></a></li>
+   <li><i class="fa fa-map-marker  icon-bgx gry-bgx sm-icon border3px"></i><span> زوار الموقع : 104048411 </span></li>
+</ul>
+<div class="social-list">
+   <a href="https://www.instagram.com/EduGovOman/?hl=ar"><i class="fa fa-instagram  ic-instagram  ic-colored sm-icon rounded"></i></a>
+   <a href="https://www.facebook.com/EduGovOm/"><i class="fa fa-facebook ic-facebook ic-colored sm-icon sm-icon rounded"></i></a>
+   <a href="http://twitter.com/#!/EduGovOman"><i class="fa fa-twitter ic-twitter ic-colored sm-icon rounded"></i></a>
+   <a href="https://www.youtube.com/omaneduportal"><i class="fa fa-youtube ic-youtube ic-colored sm-icon rounded"></i></a>
+   <a href="rss/lang/ar"><i class="fa fa-rss ic-rss ic-colored sm-icon rounded"></i></a>
+</div>
+
+
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- footer widgets start -->
+            <!-- footer bottom bar start -->
+			            <div class="footer-bottom" style="padding: 15px;">
+               <div class="container">
+                  <div class="row">
+                     <!-- footer copyrights left cell -->
+                     <div class="copyrights col-md-4 first"> محتويات هذا الموقع مرخصة بموجب <b> الرخصة الحكومية المفتوحة - عمان </b> 
+                        <b class="main-color"> - وزارة التربية والتعليم © 2019 </b>
+                     </div>
+                     <!-- footer bottom menu start -->
+                     <div class="col-md-8 last">
+                        <ul class="footer-menu f-right">
+                           <li><a href="home.moe">الرئيسية</a></li>
+                           <li><a href="pages/112/show/309">خصوصية الموقع</a></li>
+                           <li><a href="pages/112/show/318"> الشروط والأحكام</a></li>
+                           <li><a href="pages/112/show/450">سهولة الوصول</a></li>
+                           <li><a href="statistics"> إحصائية الموقع</a></li>
+                           <li><a href="pages/113">الأسئلة الشائعة</a></li>
+                           <!--li><a href="survey-index&amp;survey=761ace9">استبانة رضى المستخدم</a></li-->
+						   <li><a href="https://istmarah.moe.gov.om/app/form?id=676W6A">استبانة رضا المستفيد </a></li>
+                        </ul>
+                     </div>
+                     <!-- footer bottom menu end -->
+                  </div>
+               </div>
+            </div>
+			
+		            <!-- footer bottom bar end -->
+         </footer>
+         <!-- Footer end -->
+                  <div class="Fiction-FeedBack hidden-xs">
+            <a class="Fiction-FeedBack-fab Fiction-FeedBack-btn-large Fiction-feed-text" id="Fiction-FeedBackBtn"><i class="fa fa-smile-o"></i> شاركنا</a>
+            <ul class="Fiction-FeedBack-menu">
+               <li><a class="Fiction-FeedBack-fab Fiction-FeedBack-btn-sm Fiction-FeedBack-btn-doc scale-transition scale-out" data-toggle="modal" data-target=".modal-Idea" title="Have an Idea" class="contact-sub-button-link"><span class="fa fa-lightbulb-o" style="font-size: 28px;vertical-align: middle;"></span></a></li>
+               <li><a class="Fiction-FeedBack-fab Fiction-FeedBack-btn-sm Fiction-FeedBack-btn-tangram scale-transition scale-out" data-toggle="modal" data-target=".modal-notlike" title="Not Satisfied" class="contact-sub-button-link"><span class="fa fa-frown-o" style="font-size: 28px;vertical-align: middle;"></span></a></li>
+               <li><a class="Fiction-FeedBack-fab Fiction-FeedBack-btn-sm Fiction-FeedBack-btn-report scale-transition scale-out" data-toggle="modal" data-target=".modal-likeit" title="Satisfied" class="contact-sub-button-link"><span class="fa fa-smile-o" style="font-size: 28px;vertical-align: middle;"></span></a></li>
+            </ul>
+         </div>
+		 
+		 
+		 
+         <div class="modal fade modal-likeit t-left" tabindex="-1" role="dialog" aria-labelledby="modal-likeit">
+            <div class="modal-dialog modal-lg">
+               <div class="modal-content">
+                  <form id="form3" class="fiction-form" name="contact" action="plugins/tools/feedback/feedback.php?feedlang=ar" method="post" novalidate="novalidate" onsubmit="sendForm(this.id);return false">
+                     <div class="modal-header main-bg">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="gridSystemModalLabel"><span class="fa fa-smile-o"></span> أفكار المستفيدين واقتراحاتهم</h4>
+                     </div>
+                     <div class="modal-body">
+					 
+
+                        <div class="contact-msg">
+                           <div class="alert alert-success">
+                              <img alt="" src="templates/moe/assets/images/ajax-loader.gif" class="contact-loaderx">
+                              <div class="success-msg">
+                                 <i class="fa fa-thumbs-o-up ico-block"></i>
+                                 <p>شكرًا على اتصالك بنا ، سنراجع رسالتك ونعود إليك قريبًا !</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row over-hidden">
+                           <div class="alert alert-success  round" style="padding: 15px;margin: 0 15px 15px 15px;">
+                              <p>نسعد بمشاركتنا بأفكارك لتحسين الخدمات المقدمة إليك</p>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-md-12 control-label" for="contact-message">ما هي الجزئية التي نالت على إعجابك ؟<small class="red-color">*</small></label>
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                    <textarea id="contact-message" name="contact-message" rows="6" cols="30" class="form-control required error"></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-12">
+                              <label class="col-md-12 control-label"> معلومات الاتصال الخاصة بك تساعدنا على التواصل معك لمناقشة الفكرة أو تقديم المساعدة أو لأي استفسار </label>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                       <input type="text" id="contact-name" name="contact-name" class="form-control" placeholder="الاسم (إختياري)">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                       <input type="email" id="contact-email" name="contact-email" class="form-control" placeholder="البريد الإلكتروني ">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                       <input type="text" id="contact-phone" name="contact-phone" class="form-control" placeholder="الهاتف (إختياري)">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <div class="form-group col-md-6">
+                           <button class="btn main-bg btn-block btn-lg border5px" type="submit" id="contact-submit" name="contact-submit" value="submit"><i class="fa fa-send"></i>إرسال الفكرة</button>
+                        </div>
+                        <div class="form-group col-md-6">
+                           <button type="button" class="btn btn-block btn-lg border5px" data-dismiss="modal">غلق</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+         <div class="modal fade modal-notlike t-left" tabindex="-1" role="dialog" aria-labelledby="modal-notlike">
+            <div class="modal-dialog modal-lg">
+               <div class="modal-content">
+                  <form id="form2" class="fiction-form3" name="contact" action="plugins/tools/feedback/feedback.php?feedlang=ar" method="post" novalidate="novalidate" onsubmit="sendForm(this.id);return false">
+                     <div class="modal-header main-bg">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="gridSystemModalLabel"><span class="fa fa fa-frown-o"></span> أفكار المستفيدين واقتراحاتهم</h4>
+                     </div>
+                     <div class="modal-body">
+                        <div class="contact-msg">
+                           <div class="alert alert-success">
+                              <img alt="" src="templates/moe/assets/images/ajax-loader.gif" class="contact-loader">
+                              <div class="success-msg">
+                                 <i class="fa fa-thumbs-o-up ico-block"></i>
+                                 <p>شكرًا على اتصالك بنا ، سنراجع رسالتك ونعود إليك قريبًا !</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row over-hidden">
+                           <div class="alert alert-danger round" style="padding: 15px;margin: 0 15px 15px 15px;">
+                              <p>نسعد بمشاركتكم لنا في تحسين الخدمات المقدمة إليكم والعمل معاً لتخطي الصعوبات التي تواجه المستفيدين ..</p>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-md-12 control-label" for="contact-subject">ما هي الجزئية التي تحتاج إلى تطوير ؟<small class="red-color">*</small></label>
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="contact-option" id="contact-option" class="form-control">
+                                       <option value="1">لم أستطع استخدام الخدمة - لعدم وجود دليل الإستخدام</option>
+                                       <option value="2">مدة البحث و الحصول على البيانات </option>
+                                       <option value="3">عدم وضوح النصوص أوالصور أو أزرار التحكم المستخدمة</option>
+                                       <option value="4">البطء</option>
+                                       <option value="5">عرض الصفحة لا يتلائم مع الجهاز</option>
+                                       <option value="6">خلل فني في الخدمة</option>
+                                       <option value="7">غير ذلك</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-md-12 control-label" for="contact-message">تفاصيل <small class="red-color">*</small></label>
+                              <div class="col-md-12">
+                                 <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                    <textarea id="contact-message" name="contact-message" rows="6" cols="30" class="form-control required error"></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-12">
+                              <label class="col-md-12 control-label"> معلومات الاتصال الخاصة بك تساعدنا على التواصل معك لمناقشة الفكرة أو تقديم المساعدة أو لأي استفسار </label>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                       <input type="text" id="contact-name" name="contact-name" class="form-control" placeholder="الاسم (إختياري)">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                       <input type="email" id="contact-emailx" name="contact-email" class="form-control" placeholder="البريد الإلكتروني ">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                       <input type="text" id="contact-phone" name="contact-phone" class="form-control" placeholder="الهاتف (إختياري)">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <div class="form-group col-md-6">
+                           <button class="btn main-bg btn-block btn-lg border5px" type="submit" id="contact-submit" name="contact-submit" value="submit"><i class="fa fa-send"></i>إرسال الفكرة</button>
+                        </div>
+                        <div class="form-group col-md-6">
+                           <button type="button" class="btn btn-block btn-lg border5px" data-dismiss="modal">غلق</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         
+		 
+		 
+		 
+		 <div class="modal fade modal-Idea t-left" tabindex="-1" role="dialog" aria-labelledby="modal-Idea">
+            <div class="modal-dialog modal-lg">
+               <div class="modal-content">
+                 <form id="form1" class="fiction-form2" name="contact" action="plugins/tools/feedback/feedback.php?feedlang=ar" method="post" novalidate="novalidate" onsubmit="sendForm(this.id);return false">
+                     <div class="modal-header main-bg">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title" id="gridSystemModalLabel"><span class="fa fa-lightbulb-o"></span> أفكار المستفيدين واقتراحاتهم</h4>
+                     </div>
+                     <div class="modal-body">
+                        <div class="contact-msg">
+                           <div class="alert alert-success">
+                              <img alt="" src="templates/moe/assets/images/ajax-loader.gif" class="contact-loader">
+                              <div class="success-msg">
+                                 <i class="fa fa-thumbs-o-up ico-block"></i>
+                                 <p>شكرًا على اتصالك بنا ، سنراجع رسالتك ونعود إليك قريبًا !</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row over-hidden">
+                           <div class="alert alert-warning round" style="padding: 15px;margin: 0 15px 15px 15px;">
+                              <p>نسعد بمشاركتنا بأفكارك لتحسين الخدمات المقدمة إليك</p>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-md-2 control-label" for="contact-subject">عنوان الفكرة<small class="red-color">*</small></label>
+                              <div class="col-md-10">
+                                 <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <input type="text" id="contact-subject" name="contact-subject" class="form-control required error">
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="form-group">
+                              <label class="col-md-2 control-label" for="contact-message">الوصف <small class="red-color">*</small></label>
+                              <div class="col-md-10">
+                                 <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                    <textarea id="contact-message" name="contact-message" rows="6" cols="30" class="form-control required error"></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-12">
+                              <label class="col-md-12 control-label"> معلومات الاتصال الخاصة بك تساعدنا على التواصل معك لمناقشة الفكرة أو تقديم المساعدة أو لأي استفسار </label>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                       <input type="text" id="contact-name" name="contact-name" class="form-control" placeholder="الاسم (إختياري)">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                       <input type="email" id="contact-emailx" name="contact-email" class="form-control" placeholder="البريد الإلكتروني ">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="form-group">
+                                    <div class="input-group">
+                                       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                       <input type="text" id="contact-phone" name="contact-phone" class="form-control" placeholder="الهاتف (إختياري)">
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="modal-footer">
+                        <div class="form-group col-md-6">
+                           <button class="btn main-bg btn-block btn-lg border5px" type="submit" id="contact-submit" name="contact-submit" value="submit"><i class="fa fa-send"></i>إرسال الفكرة</button>
+                        </div>
+                        <div class="form-group col-md-6">
+                           <button type="button" class="btn btn-block btn-lg border5px" data-dismiss="modal">غلق</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+
+														      </div>
+      <!-- Back to top Link -->
+      <a id="to-top" href="#"><span class="fa fa fa-angle-up"></span></a>
+            <!-- Load JS plugins -->
+      <script src="templates/moe/assets/js/jquery-1.12.0.min.js"></script>
+      <script src="templates/moe/assets/js/assets.js"></script>
+      <!-- general script file -->
+	  	  		<!-- SLIDER REVOLUTION SCRIPTS  -->
+		<script type="text/javascript" src="templates/moe/assets/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script type="text/javascript" src="templates/moe/assets/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+      <!-- OWL SLIDER SCRIPTS  -->
+      <!--link rel="stylesheet" href="templates/moe/assets/css/sliders/owl.carousel.css" property='stylesheet' />
+      <script src="templates/moe/assets/js/sliders/owl.carousel.min.js"></script-->
+      <!--script id="fictionx_support_chat" src="plugins/livesupport/widget/fictionx_chat_widget.js"></script-->
+      <script>
+   $(document).ready(function() {
+
+	
+           var originalSize = $('div').css('font-size');         
+          // reset        
+           $(".resetMe").click(function(){           
+          $('div').css('font-size', originalSize);        
+           $('h6').css('font-size', originalSize);         
+           $('h5').css('font-size', originalSize);   		  
+           $('h4').css('font-size', originalSize);   		  
+           $('h3').css('font-size', originalSize);   		  
+           });
+         
+           // Increase Font Size          
+           $(".increase").click(function(){         
+          var currentSize = $('div').css('font-size');         
+          var currentSize = parseFloat(currentSize)*1.1;          
+           $('div').css('font-size', currentSize);         
+           $('h6').css('font-size', currentSize);         
+           $('h5').css('font-size', currentSize);         
+           $('h4').css('font-size', currentSize);         
+           $('h3').css('font-size', currentSize);         
+          return false;          
+          });        
+		  
+           // Decrease Font Size       
+           $(".decrease").click(function(){        
+           var currentFontSize = $('div').css('font-size');        
+           var currentSize = $('div').css('font-size');        
+           var currentSize = parseFloat(currentSize)*0.9;        
+           $('div').css('font-size', currentSize);         
+           $('h6').css('font-size', currentSize);         
+           $('h5').css('font-size', currentSize);         
+           $('h4').css('font-size', currentSize);         
+           $('h3').css('font-size', currentSize);         
+           return false;         
+           });	
+   });
+         
+         $('#Fiction-FeedBackBtn').click(function() {
+         $('.Fiction-FeedBack-btn-sm').toggleClass('scale-out');
+         if (!$('.Fiction-FeedBack-card').hasClass('scale-out')) {
+          $('.Fiction-FeedBack-card').toggleClass('scale-out');
+         }
+         });
+		 
+		 
+         $('#Fiction-FontSizeBtn').click(function() {
+         $('.Fiction-FontSize-btn-sm').toggleClass('scale-out');
+         if (!$('.Fiction-FontSize-card').hasClass('scale-out')) {
+          $('.Fiction-FontSize-card').toggleClass('scale-out');
+         }
+         });	
+
+
+		function sendForm(form_id){
+			event.preventDefault();
+			var form = $('#'+form_id);
+			
+		$.ajax({
+				type: 'POST',
+				processData: false,  // Important!
+				url: $(form).attr('action'),
+				data: $(form).serialize(),
+				dataType    : 'json'
+
+		})
+			.done(function(data) {
+				console.log(data);
+				if ( ! data.success) {
+
+					// handle errors for email ---------------
+					if (data.errors.email) {
+						$(form).addClass('has-error'); // add the error class to show red input
+						$(form).append('<div class="help-block">' + data.errors.email + '</div>'); // add the actual error message under our input
+					}
+				} else {
+
+					$('form').append('<div class="alert alert-success">' + data.message + '</div>');
+					//alert('success'); // for now we'll just alert the user
+					$('.contact-msg').fadeIn('slow');
+					$('.fiction-form img.contact-loader').fadeOut('slow');
+					$('.success-msg').fadeIn('slow');
+					setTimeout(function() { $(".contact-msg").fadeOut('slow'); }, 3000);	
+				}
+			});
+		}		 
+      </script>
+	  	  
+		<script type="text/javascript">
+			// Bar Chart Vars
+			var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
+			var barChartData = {
+				labels : ["January","February","March","April","May","June","July"],
+				datasets : [
+					{
+						fillColor : "rgba(245, 94, 69,1)",
+						strokeColor : "rgba(220,220,220,0)",
+						highlightFill: "rgba(220,220,220,0.75)",
+						highlightStroke: "rgba(220,220,220,1)",
+						data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+					},
+					{
+						fillColor : "rgba(151,187,205,0.5)",
+						strokeColor : "rgba(151,187,205,0.8)",
+						highlightFill : "rgba(151,187,205,0.75)",
+						highlightStroke : "rgba(151,187,205,1)",
+						data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+					}
+				]
+
+			}
+
+			var tpj=jQuery;			
+			var revapi70;
+			tpj(window).load(function() {
+				if(tpj("#slider").revolution == undefined){
+					revslider_showDoubleJqueryError("#slider");
+				}else{
+					revapi70 = tpj("#slider").show().revolution({
+						sliderType:"standard",
+						jsFileLocation:"templates/moe/assets/revolution/js/",
+						sliderLayout:"fullwidth",
+						dottedOverlay:"none",
+						delay:9000,
+						navigation: {
+							keyboardNavigation:"off",
+							keyboard_direction: "horizontal",
+							mouseScrollNavigation:"off",
+							onHoverStop:"off",
+							touch:{
+								touchenabled:"on",
+								swipe_threshold: 75,
+								swipe_min_touches: 1,
+								swipe_direction: "horizontal",
+								drag_block_vertical: false
+							}
+							,
+							arrows: {
+								style:"zeus",
+								enable:true,
+								hide_onmobile:true,
+								hide_under:600,
+								hide_onleave:true,
+								hide_delay:200,
+								hide_delay_mobile:1200,
+								tmp:'<div class="tp-title-wrap">  	<div class="tp-arr-imgholder"></div> </div>',
+								left: {
+									h_align:"left",
+									v_align:"center",
+									h_offset:30,
+									v_offset:0
+								},
+								right: {
+									h_align:"right",
+									v_align:"center",
+									h_offset:30,
+									v_offset:0
+								}
+							}
+						},
+						responsiveLevels:[1240,1024,778,480],
+						visibilityLevels:[1240,1024,778,480],
+						gridwidth:[1200,1024,768,480],
+						gridheight:[600,600,600,600],
+						lazyType:"none",
+						parallax: {
+							type:"mouse+scroll",
+							origo:"slidercenter",
+							speed:2000,
+							levels:[1,2,3,20,25,30,35,40,45,50],
+							disable_onmobile:"on"
+						},
+						shadow:0,
+						spinner:"spinner2",
+						autoHeight:"off",
+						disableProgressBar:"on",
+						hideThumbsOnMobile:"off",
+						hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						debugMode:false,
+						fallbacks: {
+							simplifyAll:"off",
+							disableFocusListener:false,
+						}
+					});
+				}
+				$('#BarChart').appear(function() {
+					var barchrt = $(this)[0].getContext("2d");
+					window.myBar = new Chart(barchrt).Bar(barChartData, {
+						responsive : true
+					});
+				},{accY: -100});
+			});	/*ready*/
+		</script>
+               <script src="templates/moe/assets/js/script-rtl.js"></script>
+            	  <div class="VotePopup hidden-xs">
+<!--figure class="Vot-btn"><span class="fa fa-check"></span></figure-->
+<p class="Vot-btn VotePopup-header">رأيك يهمنا</p>
+<div id='VoteDiv'>
+<div class="VoteDetails" >
+<!--script src="ajax/system/fictionx.js"></script-->
+
+<form  name="ajaxform" id="ajaxform"  method="post" action="blocks/Block-Vote.php?Do=Vote&amp;GetLang=ar">
+<input name="id" class="input-submit"  type="hidden" value="72" />
+		<h4>" لم أواجه صعوبة أثناء عملية رصد درجات الطلبة عبر البوابة التعليمية " </h4>
+		<ul>
+	  		<li><input name="ch" type="radio" value="218"/><span>نعم</span></li>
+	  		<li><input name="ch" type="radio" value="219"/><span>لا</span></li>
+	  	  </ul>
+	   <input name="vote" class="input-submit"  type="submit" id="doVote" value="تصويت" />
+</form>
+
+</div>
+</div>
+</div>
+<script>
+$(".Vot-btn").click(function(){
+$(".VoteDetails").toggle(500);
+});
+
+$("#ajaxform").submit(function(e)
+{
+    var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax(
+    {
+        url : formURL,
+        type: "POST",
+        data : postData,
+        success:function(data, textStatus, jqXHR) 
+        {
+            //data: return data from server
+			//alert(data);
+			 $("#VoteDiv").html( data );
+        },
+        error: function(jqXHR, textStatus, errorThrown) 
+        {
+            //if fails      
+        }
+    });
+    e.preventDefault(); //STOP default action
+    e.unbind(); //unbind. to stop multiple form submit.
+});
+</script>
+   </div></body>
+</html>

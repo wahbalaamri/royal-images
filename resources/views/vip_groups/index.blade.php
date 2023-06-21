@@ -92,3 +92,8 @@
     </div>
 </div> --}}
 @endsection
+<script>
+    // $(document).ready(function(){
+    //     $('.tm-section-1').css("display","block");
+    // })
+</script>

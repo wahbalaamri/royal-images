@@ -1,7 +1,8 @@
 @extends('layouts.main')
 @section('content')
 
-<div class='card card-block text-center w-75 align-self-center'>
+<section class="tm-section tm-section-3">
+    <div class='card card-block text-center align-self-center'>
     <div class="card-header tm-text-blue"><span class="h2">مستخدمي النظام</span>
         <span class="float-left"><a href="{{ route('users.create') }}" class="btn btn-sm btn-success">إضافة
                 مستخدم</a></span>
@@ -71,5 +72,11 @@
         </div>
         @endif
     </div>
-</div>
+    </div>
+</section>
 @endsection
+<script>
+    // $(document).ready(function(){
+    //     $('.tm-section-1').css("display","block");
+    // })
+</script>
