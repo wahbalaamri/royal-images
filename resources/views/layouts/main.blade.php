@@ -6,7 +6,7 @@
 
          <!--header class="top-head transparent semi light fullx header-1 fixed-head" style="z-index: 1000000;"-->
 
- 
+ {{-- ddddd --}}
 
     <title>{{ __('Diwan of Royal Court - Royal Images-news') }}</title>
 
@@ -78,7 +78,7 @@ http://www.tooplate.com/view/2109-the-card
    <ul>
     
    @role('dataEntry')
-      <li><a href="/"><span><i class="fa fa-home shown"></i></span></a></li>						
+   <li><a href="/"><span><i class="fa fa-home shown"></i>{{__('الرئيسة')}}</span></a></li>						
       <li><a href="{{ route('images.index') }}" ><span>{{__('الصور')}}</span> </a>
 	                        
       </li>
@@ -126,21 +126,19 @@ http://www.tooplate.com/view/2109-the-card
       
                     @else
                     <li class="">
-                        <a href="javascript:void(0)" id="LogOutlink" class="tm-nav-link external"><span>{{ __('خروج')
+                        <a href="javascript:void(0)" id="LogOutlink" class=""><span>{{ __('خروج')
                             }}</span></a>
-                        <form method="POST" id="LogOutForm" class="tm-nav-link external" action="{{ route('logout') }}">
+                        <form method="POST" id="LogOutForm" class="" action="{{ route('logout') }}">
                             @csrf
-                            {{--
-                            <button type="submit" class="tm-nav-link external">
-                                {{ __('Log Out') }}
-                            </button> --}}
+                           {{-- 
+                            <button type="submit" class="">
+                                <span> {{ __('Log Out') }}</span>--}}
+                            </button> 
                         </form>
                     </li>
                     @endguest
                     
-                    <li >
-                        <a href="/" ><span>{{__('الرئيسة')}}</span></a>
-                    </li>
+                  
    </ul>
 </nav>
 
@@ -217,6 +215,7 @@ http://www.tooplate.com/view/2109-the-card
             </nav>
             </div>-->
             </header>
+            
                             </DIV>
                             
         </div>
