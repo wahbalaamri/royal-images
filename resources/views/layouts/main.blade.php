@@ -49,7 +49,7 @@ http://www.tooplate.com/view/2109-the-card
     <!-- Templatemo style -->
 </head>
 
-<body>
+
     <!-- Loader -->
     <div id="loader-wrapper">
         <div id="loader"></div>
@@ -136,6 +136,7 @@ http://www.tooplate.com/view/2109-the-card
                             </button> 
                         </form>
                     </li>
+                    
                     @endguest
                     
                   
@@ -245,10 +246,12 @@ http://www.tooplate.com/view/2109-the-card
             
          
             
-              <span>الحقوق محفوظة &copy; ديوان البلاط السلطاني 2022</span>
-              <span>برمجة: <a rel="nofollow" href="#">المديرية العامة للإتصالات ونظم المعلومات</a> </span>
+            <!--  <span>الحقوق محفوظة &copy; ديوان البلاط السلطاني 2022</span>
+              <span>برمجة: <a rel="nofollow" href="#">المديرية العامة للإتصالات ونظم المعلومات</a> </span> -->
             
-          
+              <div>الحقوق محفوظة &copy; ديوان البلاط السلطاني 2022 
+                <SPAN class="main-color">  برمجة : المديرية العامة للإتصالات ونظم المعلومات</SPAN>
+             </div>
         
         </div>
         </div>
